@@ -1,0 +1,57 @@
+/*==========================
+typography
+============================*/
+
+.typography {
+  position: relative;
+}
+
+.typography h5 {
+  font-size: 16px;
+  line-height: 22px;
+  color: #202124;
+  font-weight: 500;
+  margin-bottom: 11px;
+}
+
+.typography p {
+  font-size: 15px;
+  line-height: 24px;
+  margin-bottom: 24px;
+}
+
+.list-style-four {
+  position: relative;
+}
+
+.list-style-four li {
+  position: relative;
+  font-size: 15px;
+  line-height: 25px;
+  color: #696969;
+  margin-bottom: 20px;
+  padding-left: 30px;
+}
+
+.list-style-four li:before {
+  position: absolute;
+  left: 0;
+  top: 3px;
+  height: 18px;
+  width: 18px;
+  background: #696969;
+  content: "\f00c";
+  border-radius: 10px;
+  color: #ffffff;
+  font-size: 10px;
+  line-height: 18px;
+  font-weight: 900;
+  text-align: center;
+  font-family: "Font Awesome 5 Free";
+}
+.z-index-1 {
+  z-index: -1;
+}
+.-light-blue {
+  background-color: #f5f9fe;
+}

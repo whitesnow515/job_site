@@ -1,0 +1,169 @@
+.uploading-resume {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.uploading-resume .uploadButton {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 100%;
+}
+
+.uploading-resume .uploadButton-input {
+  opacity: 0;
+  position: absolute;
+  overflow: hidden;
+  z-index: -1;
+  pointer-events: none;
+  height: 0;
+  width: 0;
+  display: none;
+}
+
+.uploading-resume .cv-uploadButton{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  cursor: pointer;
+  text-align: center;
+  height: 300px;
+  width: 100%;
+  border-radius: 5px;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+  margin: 0;
+  color: #1b2032;
+  font-size: 16px;
+  border: 2px dashed #ced4e1;
+  padding: 30px 20px;
+}
+
+.uploading-resume .cv-uploadButton .title{
+  display: block;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  color: var(--primary-color);
+  margin-bottom: 12px;
+}
+
+.uploading-resume .cv-uploadButton .text{
+  font-size: 14px;
+  line-height: 19px;
+  color: #696969;
+  margin-bottom: 28px;
+}
+
+.uploading-resume .cv-uploadButton .theme-btn{
+  position: relative;
+  display: inline-block;
+}
+
+.uploading-resume .cv-uploadButton:hover {
+  border-color: #021f4a;
+}
+
+.uploading-resume .uploadButton-file-name {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 0 10px;
+  padding-left: 18px;
+  min-height: 36px;
+  top: 1px;
+  position: relative;
+  color: #1b2032;
+  background-color: transparent;
+  overflow: hidden;
+  line-height: 22px;
+}
+
+.cv-manager-widget .files-outer{
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.file-edit-box {
+  position: relative;
+  height: 167px;
+  width: 190px;
+  background: #F5F7FC;
+  border-radius: 8px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+
+.file-edit-box .title{
+  display: block;
+  margin-bottom: 15px;
+  font-size: 15px;
+  line-height: 20px;
+  text-align: center;
+  color: #696969;
+}
+
+.file-edit-box .edit-btns{
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 20px;
+}
+
+.file-edit-box .edit-btns button{
+  position: relative;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  background: #ffffff;
+  border-radius: 8px;
+  margin-right: 10px;
+  min-width: auto;
+  color: rgba(25, 103, 210, 1);
+}

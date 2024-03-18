@@ -1,0 +1,46 @@
+/*** 
+
+====================================================================
+Ads Section
+====================================================================
+
+***/
+
+.ads-section{
+  position: relative;
+  padding: 100px 0 170px;
+}
+
+.advrtise-block{
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.advrtise-block .inner-box{
+  position: relative;
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: cover;
+  min-height: 236px;
+  padding: 51px 42px;
+}
+
+.advrtise-block h4{
+  position: relative;
+  display: block;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 33px;
+  color: #202124;
+  margin-bottom: 18px;
+}
+
+.advrtise-block h4 span{
+  display: block;
+  color: var(--primary-color);
+}
+
+.advrtise-block .theme-btn{
+  width: 120px;
+  font-weight: 400;
+}

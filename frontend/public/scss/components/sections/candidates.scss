@@ -1,0 +1,1076 @@
+/*** 
+
+====================================================================
+Candidates Section
+====================================================================
+
+***/
+
+.candidates-section {
+  position: relative;
+  padding: 100px 0;
+  border-bottom: 1px solid #ecedf2;
+}
+
+.candidates-section .carousel-outer {
+  margin: 0 -15px;
+}
+
+.candidates-carousel .owl-dots {
+  margin-top: 20px;
+}
+
+.candidate-block {
+  position: relative;
+  padding: 0 15px;
+  margin-bottom: 30px;
+}
+
+.candidate-block .inner-box {
+  position: relative;
+  padding: 30px 30px;
+  background: #ffffff;
+  border: 1px solid #ecedf2;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  border-radius: 8px;
+  -webkit-transition: all 300ms ease;
+  -o-transition: all 300ms ease;
+  transition: all 300ms ease;
+  text-align: center;
+}
+
+.candidate-block .inner-box:hover {
+  -webkit-box-shadow: 0px 6px 15px rgba(64, 79, 104, 0.05);
+  box-shadow: 0px 6px 15px rgba(64, 79, 104, 0.05);
+}
+
+.candidate-block .image {
+  position: relative;
+  width: 90px;
+  height: 90px;
+  overflow: hidden;
+  border-radius: 50%;
+  margin: 0 auto 14px;
+}
+
+.candidate-block .image img {
+  width: 100%;
+}
+
+.candidate-block .name {
+  position: relative;
+  display: block;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 500;
+  color: #202124;
+  margin-bottom: 5px;
+}
+
+.candidate-block .designation {
+  display: block;
+  font-size: 14px;
+  color: var(--primary-color);
+  line-height: 19px;
+  margin-bottom: 10px;
+}
+
+.candidate-block .location {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  font-size: 14px;
+  color: #696969;
+  margin-bottom: 25px;
+}
+
+.candidate-block .location i {
+  font-size: 14px;
+  margin-right: 5px;
+}
+
+.candidate-block .theme-btn {
+  max-width: 240px;
+  width: 100%;
+}
+
+.candidates-section.alternate .candidate-block .designation {
+  color: #202124;
+}
+
+/*** 
+
+====================================================================
+Candidates Section Two
+====================================================================
+
+***/
+
+.candidates-section-two {
+  position: relative;
+  padding: 100px 0 70px;
+}
+
+.candidate-block-two {
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.candidate-block-two .inner-box {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 25px 30px;
+  background: #ffffff;
+  border: 1px solid #ecedf2;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  border-radius: 8px;
+  -webkit-transition: all 300ms ease;
+  -o-transition: all 300ms ease;
+  transition: all 300ms ease;
+}
+
+.candidate-block-two .inner-box:hover {
+  -webkit-box-shadow: 0px 6px 15px rgba(64, 79, 104, 0.05);
+  box-shadow: 0px 6px 15px rgba(64, 79, 104, 0.05);
+}
+
+.candidate-block-two .content-box {
+  position: relative;
+  padding-left: 110px;
+  padding-top: 7px;
+}
+
+.candidate-block-two .image {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 90px;
+  height: 90px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.candidate-block-two .image img {
+  width: 100%;
+}
+
+.candidate-block-two .name {
+  position: relative;
+  display: block;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 500;
+  color: #202124;
+  margin-bottom: 5px;
+}
+
+.candidate-block-two .designation {
+  display: block;
+  font-size: 14px;
+  color: #202124;
+  font-weight: 500;
+  line-height: 19px;
+}
+
+.candidate-block-two .location {
+  position: relative;
+  font-size: 14px;
+  color: #696969;
+}
+
+.candidate-block-two .location i {
+  font-size: 14px;
+  margin-right: 5px;
+}
+
+.candidate-block-two .theme-btn {
+  max-width: 150px;
+  width: 100%;
+}
+
+/* Candidate block three */
+
+.candidate-block-three {
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.candidate-block-three .inner-box {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 30px 30px;
+  background: #ffffff;
+  border: 1px solid #ecedf2;
+  border-radius: 8px;
+  -webkit-transition: all 300ms ease;
+  -o-transition: all 300ms ease;
+  transition: all 300ms ease;
+}
+
+.candidate-block-three .inner-box:hover {
+  -webkit-box-shadow: 0px 6px 15px rgba(64, 79, 104, 0.05);
+  box-shadow: 0px 6px 15px rgba(64, 79, 104, 0.05);
+}
+
+.candidate-block-three .inner-box .content {
+  position: relative;
+  padding-left: 110px;
+  min-height: 90px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.candidate-block-three .image {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 90px;
+  height: 90px;
+  overflow: hidden;
+  border-radius: 50%;
+  margin: 0 auto 14px;
+}
+
+.candidate-block-three .image img {
+  width: 100%;
+}
+
+.candidate-block-three .name {
+  position: relative;
+  display: block;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 500;
+  color: #202124;
+  margin-bottom: 5px;
+}
+
+.candidate-block-three .name a {
+  color: #202124;
+}
+
+.candidate-block-three .candidate-info {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-bottom: 5px;
+}
+
+.candidate-block-three .candidate-info li {
+  position: relative;
+  font-size: 14px;
+  line-height: 22px;
+  color: #696969;
+  font-weight: 400;
+  padding-left: 25px;
+  margin-bottom: 5px;
+  margin-right: 20px;
+}
+
+.candidate-block-three .candidate-info li .icon {
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-size: 18px;
+  line-height: 22px;
+  color: #696969;
+}
+
+.candidate-block-three .candidate-info li a {
+  color: #696969;
+}
+
+.candidate-block-three .candidate-info li.designation {
+  display: block;
+  font-size: 14px;
+  color: var(--primary-color);
+  line-height: 19px;
+  padding-left: 0;
+}
+
+.candidate-block-three .post-tags {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.candidate-block-three .post-tags li {
+  position: relative;
+  background: #f0f5f7;
+  border-radius: 30px;
+  font-size: 14px;
+  line-height: 20px;
+  color: #696969;
+  padding: 5px 20px;
+  border-radius: 20px;
+  margin-right: 10px;
+}
+
+.candidate-block-three .post-tags li a {
+  color: #696969;
+}
+
+.candidate-block-three .post-tags li.colored {
+  background-color: #34a853;
+  color: #ffffff;
+}
+
+.candidate-block-three .bookmark-btn {
+  position: relative;
+  height: 30px;
+  width: 30px;
+  line-height: 35px;
+  text-align: center;
+  font-size: 12px;
+  border-radius: 50%;
+  cursor: pointer;
+  background: #ecedf2;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: all 300ms ease;
+  -o-transition: all 300ms ease;
+  transition: all 300ms ease;
+}
+
+.candidate-block-three .inner-box:hover .bookmark-btn {
+  opacity: 1;
+  visibility: visible;
+}
+
+.candidate-block-three .option-box {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.option-list {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.option-list li {
+  position: relative;
+  margin-left: 10px;
+}
+
+.option-list li button,
+.option-list li a {
+  position: relative;
+  display: block;
+  background: rgba(25, 103, 210, 0.07);
+  border-radius: 8px;
+  height: 30px;
+  width: 30px;
+  font-size: 16px;
+  color: var(--primary-color);
+  line-height: 30px;
+  text-align: center;
+  -webkit-transition: all 300ms ease;
+  -o-transition: all 300ms ease;
+  transition: all 300ms ease;
+}
+
+.option-list li button:before,
+.option-list li a:before {
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+  bottom: 100%;
+  margin-bottom: 10px;
+  background: #202124;
+  font-size: 12px;
+  line-height: 16px;
+  color: #ffffff;
+  content: attr(data-text);
+  white-space: nowrap;
+  padding: 5px 15px;
+  border-radius: 4px;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: all 300ms ease;
+  -o-transition: all 300ms ease;
+  transition: all 300ms ease;
+}
+
+.option-list li button:after,
+.option-list li a:after {
+  position: absolute;
+  left: 50%;
+  top: -10px;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid #202124;
+  content: "";
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: all 300ms ease;
+  -o-transition: all 300ms ease;
+  transition: all 300ms ease;
+}
+
+.option-list li button:hover:after,
+.option-list li button:hover:before,
+.option-list li a:hover:after,
+.option-list li a:hover:before {
+  opacity: 1;
+  visibility: visible;
+}
+
+.option-list li button:hover,
+.option-list li a:hover {
+  background: var(--primary-color);
+  color: #ffffff;
+}
+
+.option-box .delete-btn {
+  position: relative;
+  display: block;
+  font-size: 20px;
+  color: var(--primary-color);
+  font-weight: 400;
+  margin-left: 40px;
+}
+
+.resume-action .theme-btn:after {
+  display: none;
+}
+
+.resume-action .theme-btn {
+}
+
+.resume-action .theme-btn i {
+  margin-left: 40px;
+}
+
+.resume-action .dropdown-menu {
+  padding: 10px 15px;
+  min-width: 200px;
+}
+
+.resume-action .dropdown-menu button {
+  position: relative;
+  text-align: left;
+  font-size: 14px;
+  font-weight: 400;
+  color: #777777;
+  display: block;
+  width: 100%;
+  padding: 2px 0;
+}
+
+.resume-action .dropdown-menu button .la {
+  color: var(--primary-color);
+}
+
+/* Candidate block Four */
+
+.candidate-block-four {
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.candidate-block-four .inner-box {
+  position: relative;
+  padding: 40px 30px 30px;
+  background: #ffffff;
+  border-radius: 8px;
+  text-align: center;
+  -webkit-transition: all 300ms ease;
+  -o-transition: all 300ms ease;
+  transition: all 300ms ease;
+  border: 1px solid #ecedf2;
+}
+
+.candidate-block-four .inner-box:hover {
+  -webkit-box-shadow: 0px 7px 18px rgba(64, 79, 104, 0.05);
+  box-shadow: 0px 7px 18px rgba(64, 79, 104, 0.05);
+}
+
+.candidate-block-four .job-other-info {
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding: 20px 20px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+}
+
+.candidate-block-four .thumb {
+  position: relative;
+  display: block;
+  height: 90px;
+  width: 90px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 0 auto 12px;
+  -webkit-transition: all 300ms ease;
+  -o-transition: all 300ms ease;
+  transition: all 300ms ease;
+}
+
+.candidate-block-four .name {
+  display: block;
+  font-size: 18px;
+  color: #202124;
+  font-weight: 500;
+  line-height: 24px;
+  margin-bottom: 3px;
+}
+
+.candidate-block-four .name a {
+  color: #202124;
+  -webkit-transition: all 300ms ease;
+  -o-transition: all 300ms ease;
+  transition: all 300ms ease;
+}
+
+.candidate-block-four .name a:hover {
+  color: var(--primary-color);
+}
+
+.candidate-block-four .cat {
+  position: relative;
+  display: block;
+  font-size: 14px;
+  line-height: 19px;
+  color: var(--primary-color);
+  margin-bottom: 10px;
+}
+
+.candidate-block-four .job-info {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-bottom: 17px;
+}
+
+.candidate-block-four .job-info li {
+  position: relative;
+  font-size: 14px;
+  line-height: 22px;
+  color: #696969;
+  font-weight: 400;
+  padding-left: 25px;
+  margin: 0 15px 5px;
+}
+
+.candidate-block-four .job-info li .icon {
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-size: 18px;
+  line-height: 22px;
+  color: #696969;
+}
+
+.candidate-block-four .job-info li a {
+  color: #696969;
+}
+
+.candidate-block-four .post-tags {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.candidate-block-four .post-tags li {
+  position: relative;
+  background: #f0f5f7;
+  border-radius: 30px;
+  font-size: 14px;
+  line-height: 20px;
+  color: #696969;
+  padding: 5px 20px;
+  border-radius: 20px;
+  margin: 0 5px 10px;
+}
+
+.candidate-block-four .post-tags li a {
+  color: #696969;
+}
+
+.candidate-block-four .post-tags li.colored {
+  background-color: #34a853;
+  color: #ffffff;
+}
+
+.candidate-block-four .theme-btn {
+  display: block;
+  width: 100%;
+}
+
+/*** 
+
+====================================================================
+Candidate Detail Section
+====================================================================
+
+***/
+
+.candidate-detail-section {
+  position: relative;
+}
+
+.candidate-detail-section .upper-box {
+  position: relative;
+  background-image: url(/images/icons/bg-4.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-size: cover;
+  padding: 80px 0 30px;
+}
+
+.candidate-detail-section.style-three .upper-box {
+  padding: 70px 0 30px;
+}
+
+.candidate-detail-outer {
+  padding: 50px 0 50px;
+}
+
+/* Candidate block Five */
+
+.candidate-block-five {
+  position: relative;
+  margin-bottom: 50px;
+}
+
+.candidate-block-five .inner-box {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-radius: 8px;
+  -webkit-transition: all 300ms ease;
+  -o-transition: all 300ms ease;
+  transition: all 300ms ease;
+}
+
+.candidate-block-five .inner-box .content {
+  position: relative;
+  padding-left: 120px;
+  min-height: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.candidate-block-five .inner-box .btn-box {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.candidate-block-five .image {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+  border-radius: 50%;
+  margin: 0 auto 20px;
+}
+
+.candidate-block-five .image img {
+  width: 100%;
+}
+
+.candidate-block-five .name {
+  position: relative;
+  display: block;
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 35px;
+  color: #202124;
+  margin-bottom: 10px;
+}
+
+.candidate-block-five .name a {
+  color: #202124;
+}
+
+.candidate-block-five .candidate-info {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-bottom: 5px;
+}
+
+.candidate-block-five .candidate-info li {
+  position: relative;
+  font-size: 14px;
+  line-height: 22px;
+  color: #696969;
+  font-weight: 400;
+  padding-left: 25px;
+  margin-bottom: 5px;
+  margin-right: 30px;
+}
+
+.candidate-block-five .candidate-info li .icon {
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-size: 18px;
+  line-height: 22px;
+  color: #696969;
+}
+
+.candidate-block-five .candidate-info li a {
+  color: #696969;
+}
+
+.candidate-block-five .candidate-info li.designation {
+  display: block;
+  font-size: 14px;
+  color: var(--primary-color);
+  line-height: 19px;
+  padding-left: 0;
+}
+
+.candidate-block-five .post-tags {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.candidate-block-five .post-tags li {
+  position: relative;
+  background: #d3e1f5;
+  border-radius: 30px;
+  font-size: 14px;
+  line-height: 20px;
+  color: var(--primary-color);
+  padding: 5px 20px;
+  border-radius: 20px;
+  margin-right: 10px;
+}
+
+.candidate-block-five .post-tags li a {
+  color: var(--primary-color);
+}
+
+.candidate-block-five .post-tags li.colored {
+  background-color: #34a853;
+  color: #ffffff;
+}
+
+.candidate-block-five .bookmark-btn {
+  height: 50px;
+  width: 50px;
+  line-height: 50px;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+  color: var(--primary-color);
+  border-radius: 7px;
+  background: rgba(25, 103, 210, 0.07);
+  -webkit-transition: all 300ms ease;
+  -o-transition: all 300ms ease;
+  transition: all 300ms ease;
+  margin-left: 20px;
+}
+
+.candidate-block-five .option-box {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.candidate-block-five .btn-box .theme-btn {
+  min-width: 220px;
+}
+
+/* Candidate block Six */
+
+.candidate-block-six {
+  position: relative;
+}
+
+.candidate-block-six .inner-box {
+  position: relative;
+  text-align: center;
+}
+
+.candidate-block-six .image {
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+  border-radius: 50%;
+  margin: 0 auto 20px;
+}
+
+.candidate-block-six .image img {
+  width: 100%;
+}
+
+.candidate-block-six .name {
+  position: relative;
+  display: block;
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 35px;
+  color: #202124;
+  margin-bottom: 10px;
+}
+
+.candidate-block-six .name a {
+  color: #202124;
+}
+
+.candidate-block-six .designation {
+  display: block;
+  font-size: 14px;
+  color: var(--primary-color);
+  line-height: 19px;
+  margin-bottom: 22px;
+}
+
+.candidate-block-six .content {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.candidate-block-six .post-tags {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.candidate-block-six .post-tags li {
+  position: relative;
+  display: block;
+  background: #d3e1f5;
+  border-radius: 30px;
+  font-size: 14px;
+  line-height: 20px;
+  color: var(--primary-color);
+  padding: 5px 20px;
+  border-radius: 20px;
+  margin: 5px 0;
+  margin-right: 10px;
+}
+
+.candidate-block-six .post-tags li a {
+  display: block;
+  color: var(--primary-color);
+}
+
+.candidate-block-six .post-tags li.colored {
+  background-color: #34a853;
+  color: #ffffff;
+}
+
+.candidate-block-six .btn-box {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.candidate-block-six .candidate-info {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.candidate-block-six .candidate-info li {
+  position: relative;
+  font-size: 14px;
+  line-height: 22px;
+  color: #696969;
+  font-weight: 400;
+  padding-left: 25px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-right: 30px;
+}
+
+.candidate-block-six .candidate-info li .icon {
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-size: 18px;
+  line-height: 22px;
+  color: #696969;
+}
+
+.candidate-block-six .candidate-info li a {
+  color: #696969;
+}
+
+.candidate-block-six .bookmark-btn {
+  height: 50px;
+  width: 50px;
+  line-height: 50px;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+  color: var(--primary-color);
+  border-radius: 7px;
+  background: rgba(25, 103, 210, 0.07);
+  -webkit-transition: all 300ms ease;
+  -o-transition: all 300ms ease;
+  transition: all 300ms ease;
+  margin-left: 20px;
+}
+
+.candidate-block-six .option-box {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.candidate-block-six .btn-box .theme-btn {
+  min-width: 220px;
+}
+
+.candidate-detail-section .sidebar-widget {
+  margin-bottom: 30px;
+}
+
+.candidate-detail-section .contact-widget .form-group input,
+.candidate-detail-section .contact-widget .form-group textarea {
+  background-color: #ffffff;
+}
+
+.candidate-detail-section .contact-widget .form-group textarea {
+  min-height: 130px;
+}
+
+.candidate-detail-section .contact-widget .widget-content .default-form .form-group {
+  margin-bottom: 20px;
+}

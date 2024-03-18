@@ -1,0 +1,172 @@
+/*** 
+==========================
+Social Icons
+==========================
+***/
+
+.social-icon-one {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.social-icon-one li {
+  position: relative;
+  margin: 0 6px 10px;
+}
+
+.social-icon-one li a {
+  position: relative;
+  display: block;
+  font-size: 14px;
+  color: #7b8094;
+  height: 45px;
+  width: 45px;
+  border: 2px solid #323950;
+  line-height: 43px;
+  text-align: center;
+  border-radius: 50%;
+  -webkit-transition: all 300ms ease;
+  -o-transition: all 300ms ease;
+  transition: all 300ms ease;
+}
+
+.social-icon-one li a:hover {
+  background-color: #323950;
+}
+
+/* Social Icon Two*/
+
+.social-icon-two {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.social-icon-two li {
+  position: relative;
+  margin: 0 6px 10px;
+}
+
+.social-icon-two li a {
+  position: relative;
+  display: block;
+  font-size: 14px;
+  color: #9fa9b8;
+  height: 45px;
+  width: 45px;
+  border: 2px solid #f7f8f9;
+  line-height: 43px;
+  text-align: center;
+  border-radius: 50%;
+  -webkit-transition: all 300ms ease;
+  -o-transition: all 300ms ease;
+  transition: all 300ms ease;
+}
+
+.social-icon-two li a:hover {
+  background-color: #f7f8f9;
+  color: #32383d;
+}
+
+/* Social Icon Three*/
+
+.social-icon-three {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.social-icon-three li {
+  position: relative;
+  width: 50%;
+  margin-bottom: 35px;
+}
+
+.social-icon-three li a {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-left: 65px;
+  min-height: 45px;
+  color: #32383d;
+}
+
+.social-icon-three li a span{
+  position: absolute;
+  border-radius: 50%;
+  left: 0;
+  top: 0;
+  font-size: 14px;
+  border: 2px solid #f7f8f9;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: #32383d;
+  height: 45px;
+  width: 45px;
+  line-height: 43px;
+  -webkit-transition: all 300ms ease;
+  -o-transition: all 300ms ease;
+  transition: all 300ms ease;
+}
+
+.social-icon-three li a:hover span {
+  background-color: #f7f8f9;
+}
+
+/* Social Icon Four*/
+
+.social-icon-four{
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.social-icon-four li{
+  position: relative;
+  margin-right: 25px;
+}
+
+.social-icon-four li a{
+  font-size: 13px;
+  line-height: 24px;
+  color: #ffffff;
+  -webkit-transition: all 300ms ease;
+  -o-transition: all 300ms ease;
+  transition: all 300ms ease;
+}
+
+.social-icon-four li a:hover{
+  color: #ffa737;
+}

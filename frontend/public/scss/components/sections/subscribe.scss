@@ -1,0 +1,136 @@
+/*** 
+
+====================================================================
+Subscribe Section
+====================================================================
+
+***/
+
+.subscribe-section {
+  position: relative;
+  padding: 60px 0;
+  background-color: #deebff;
+}
+
+.subscribe-section .outer-box {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.subscribe-section .sec-title {
+  margin-bottom: 0;
+  margin-right: 30px;
+}
+
+.subscribe-section .form-column {
+  position: relative;
+  max-width: 490px;
+  width: 100%;
+}
+
+.subscribe-form {
+  position: relative;
+}
+
+.subscribe-form .form-group {
+  position: relative;
+  margin-bottom: 0;
+}
+
+.subscribe-form .form-group input[type="text"],
+.subscribe-form .form-group input[type="email"] {
+  display: block;
+  height: 70px;
+  width: 100%;
+  font-size: 15px;
+  line-height: 20px;
+  color: #696969;
+  background: #ffffff;
+  padding: 20px 30px;
+  padding-right: 60px;
+  -webkit-box-shadow: 0px 6px 15px rgba(64, 79, 104, 0.05);
+  box-shadow: 0px 6px 15px rgba(64, 79, 104, 0.05);
+  border-radius: 8px;
+  -webkit-transition: all 300ms ease;
+  -o-transition: all 300ms ease;
+  transition: all 300ms ease;
+}
+
+.subscribe-form .form-group .theme-btn {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  max-width: 120px;
+  font-size: 15px;
+}
+
+.subscribe-form .response {
+  position: relative;
+}
+
+.subscribe-form .response > div {
+  padding: 0 15px;
+  text-align: center;
+}
+
+.subscribe-form .response .success {
+  background: #28a745;
+  color: #ffffff;
+}
+
+.subscribe-form .response .failed {
+  background-color: #dc3545;
+  color: #ffffff;
+}
+
+.subscribe-form .response .text-info {
+  background-color: #ffd658;
+  color: #222222 !important;
+}
+
+/*** 
+
+====================================================================
+Subscribe Section Two
+====================================================================
+
+***/
+
+.subscribe-section-two {
+  position: relative;
+  padding: 135px 0 148px;
+}
+
+.subscribe-section-two .sec-title h2 {
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 54px;
+  margin-top: 25px;
+}
+
+.subscribe-section-two .background-image {
+  position: absolute;
+  left: 60px;
+  right: 0;
+  top: 0;
+  height: 100%;
+  border-radius: 30px 0 0 30px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.subscribe-section-two .subscribe-form {
+  position: relative;
+  max-width: 490px;
+  width: 100%;
+  margin: 0 auto;
+}

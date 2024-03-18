@@ -1,0 +1,83 @@
+/*** 
+
+====================================================================
+Features Section
+====================================================================
+
+***/
+
+.features-section {
+  position: relative;
+  padding: 100px 0 70px;
+}
+
+.feature-block {
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.feature-block .inner-box {
+  position: relative;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.feature-block .image {
+  position: relative;
+  margin-bottom: 0;
+}
+
+.feature-block .image img {
+  display: block;
+  width: 100%;
+  -webkit-transition: all 400ms ease;
+  -o-transition: all 400ms ease;
+  transition: all 400ms ease;
+}
+
+.feature-block .inner-box:hover .image img {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+.feature-block .overlay-box {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.feature-block .overlay-box .content {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding: 30px 30px 25px;
+  z-index: 9;
+}
+
+.feature-block .overlay-box h5 {
+  font-size: 18px;
+  color: #ffffff;
+  font-weight: 500;
+  display: block;
+  margin-bottom: 2px;
+}
+
+.feature-block .overlay-box .total-jobs{
+  display: block;
+  font-size: 14px;
+  font-weight: 300;
+  color: #ffffff;
+}
+
+.overlay-link {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 9;
+}

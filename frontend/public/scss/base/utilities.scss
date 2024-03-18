@@ -1,0 +1,332 @@
+/*** 
+
+====================================================================
+Content Elements
+====================================================================
+
+***/
+
+.content-elements {
+  position: relative;
+  padding: 60px 0 10px;
+}
+
+.content-elements .auto-container {
+  max-width: 1200px;
+}
+
+.content-elements .column {
+  position: relative;
+  margin-bottom: 50px;
+}
+
+.content-elements h4.title {
+  position: relative;
+  font-size: 18px;
+  line-height: 24px;
+  color: #202124;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+
+.margin-bottom-50 {
+  margin-bottom: 50px;
+}
+.margin-bottom-30 {
+  margin-bottom: 30px;
+}
+.margin-bottom-20 {
+  margin-bottom: 20px;
+}
+.margin-bottom-10 {
+  margin-bottom: 10px;
+}
+
+.margin-top-70 {
+  margin-top: 70px;
+}
+.margin-top-50 {
+  margin-top: 50px;
+}
+.margin-top-40 {
+  margin-top: 40px;
+}
+.margin-top-30 {
+  margin-top: 30px;
+}
+.margin-top-20 {
+  margin-top: 20px;
+}
+.margin-top-10 {
+  margin-top: 10px;
+}
+
+.width-10 {
+  width: 10%;
+}
+.width-20 {
+  width: 20%;
+}
+.width-30 {
+  width: 30%;
+}
+.width-40 {
+  width: 40%;
+}
+.width-50 {
+  width: 50%;
+}
+.width-60 {
+  width: 60%;
+}
+.width-70 {
+  width: 70%;
+}
+.width-80 {
+  width: 80%;
+}
+.width-90 {
+  width: 90%;
+}
+.width-100 {
+  width: 100%;
+}
+
+.content-elements .buttons {
+  margin-bottom: 20px;
+}
+
+.content-elements .buttons .column {
+  margin-bottom: 30px;
+}
+
+.content-elements .buttons .theme-btn {
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+/*==========================
+Icons
+===========================*/
+.icon-calendar {
+  background-image: url(/images/icons/icon-calendar.svg);
+}
+.icon-expiry {
+  background-image: url(/images/icons/icon-expiry.svg);
+}
+.icon-location {
+  background-image: url(/images/icons/icon-location.svg);
+}
+.icon-user-2 {
+  background-image: url(/images/icons/icon-user-2.svg);
+}
+.icon-clock {
+  background-image: url(/images/icons/icon-clock.svg);
+}
+.icon-rate {
+  background-image: url(/images/icons/icon-rate.svg);
+}
+.icon-salary {
+  background-image: url(/images/icons/icon-salary.svg);
+}
+.icon-language {
+  background-image: url(/images/icons/icon-language.svg);
+}
+.icon-degree {
+  background-image: url(/images/icons/icon-degree.svg);
+}
+
+img {
+  display: inline-block;
+  max-width: 100%;
+  height: auto;
+}
+
+hr {
+  -webkit-appearance: none;
+  position: relative;
+  height: 1px;
+  margin: 30px auto;
+  background: #e6e8ed;
+  border-style: none;
+  outline-style: none;
+}
+
+section hr {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  margin: 0;
+}
+
+.tabs-box {
+  position: relative;
+}
+
+.tabs-box .tab {
+  display: none;
+}
+
+.tabs-box .active-tab {
+  display: block;
+}
+
+.tabs-box .tab-btn {
+  cursor: pointer;
+}
+
+/*** 
+
+====================================================================
+Scroll To Top
+====================================================================
+
+***/
+
+.scroll-to-top {
+  position: fixed;
+  right: 20px;
+  bottom: 28px;
+  z-index: 9;
+  width: 40px;
+  height: 40px;
+  font-size: 18px;
+  line-height: 40px;
+  border-radius: 50%;
+  text-align: center;
+  cursor: pointer;
+  background-color: #23293e;
+  color: var(--primary-color);
+  background-color: rgba(25, 103, 210, 0.07);
+  -webkit-transition: all 300ms ease;
+  -o-transition: all 300ms ease;
+  transition: all 300ms ease;
+}
+
+.scroll-to-top:hover {
+  color: #ffffff;
+  background-color: var(--primary-color);
+}
+
+.scroll-to-top.style-two {
+  color: #34a853;
+  background-color: rgba(52, 168, 83, 0.07);
+}
+.scroll-to-top.style-two:hover {
+  color: #ffffff;
+  background-color: rgba(52, 168, 83, 1);
+}
+
+.top-features {
+  position: relative;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.feature-block-two {
+  margin-bottom: 30px;
+}
+
+.feature-block-two .inner-box {
+  position: relative;
+  text-align: center;
+}
+
+.feature-block-two .icon {
+  position: relative;
+  font-size: 36px;
+  line-height: 1em;
+  color: #ffffff;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+.feature-block-two h4,
+.feature-block-two h4 a {
+  position: relative;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  color: #ffffff;
+  margin-bottom: 3px;
+}
+
+.feature-block-two .count {
+  font-size: 14px;
+  line-height: 19px;
+  color: #ffffff;
+}
+
+.social-share a.facebook {
+  background: #3b5998;
+}
+.social-share a.twitter {
+  background: #55acee;
+}
+.social-share a.google {
+  background: #dd4b39;
+}
+.social-share a.linkedin {
+  background: #007bb5;
+}
+.social-share a.youtube {
+  background: #bb0000;
+}
+.social-share a.instagram {
+  background: #125688;
+}
+.social-share a.pinterest {
+  background: #cb2027;
+}
+.social-share a.snapchat-ghost {
+  background: #fffc00;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+.social-share a.skype {
+  background: #00aff0;
+}
+.social-share a.android {
+  background: #a4c639;
+}
+.social-share a.dribbble {
+  background: #ea4c89;
+}
+.social-share a.vimeo {
+  background: #45bbff;
+}
+.social-share a.tumblr {
+  background: #2c4762;
+}
+.social-share a.vine {
+  background: #00b489;
+}
+.social-share a.foursquare {
+  background: #45bbff;
+}
+.social-share a.stumbleupon {
+  background: #eb4924;
+}
+.social-share a.flickr {
+  background: #f40083;
+}
+.social-share a.yahoo {
+  background: #430297;
+}
+.social-share a.soundcloud {
+  background: #ff5500;
+}
+.social-share a.reddit {
+  background: #ff5700;
+}
+.social-share a.rss {
+  background: #ff6600;
+}
+
+.social-share a:hover {
+  opacity: 0.8;
+}
+
+.social-share a i {
+  margin-right: 5px;
+}

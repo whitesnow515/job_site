@@ -1,0 +1,48 @@
+/*==========================
+Pie Graph
+===========================*/
+
+.pie-graph {
+  position: relative;
+  margin-bottom: 40px;
+}
+
+.pie-graph .graph-outer {
+  position: relative;
+  text-align: center;
+}
+
+.pie-graph .graph-outer .dial {
+  position: relative;
+  display: block;
+}
+
+.pie-graph .inner-text {
+  position: absolute;
+  left: 15px;
+  right: 15px;
+  text-align: center;
+  top: 50%;
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 35px;
+  color: #202124;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  line-height: 1em;
+  color: #363636;
+}
+
+.pie-graph h4 {
+  position: relative;
+  font-size: 20px;
+  color: #363636;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.pie-graph.light h4,
+.pie-graph.light .inner-text {
+  color: #ffffff;
+}

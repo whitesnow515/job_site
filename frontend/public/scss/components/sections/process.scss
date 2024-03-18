@@ -1,0 +1,51 @@
+/*** 
+
+====================================================================
+Process Section
+====================================================================
+
+***/
+
+.process-section {
+  position: relative;
+  padding: 100px 0;
+}
+
+.process-block {
+  position: relative;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.process-block .icon-box {
+  position: relative;
+  display: inline-block;
+  padding-top: 56px;
+  min-height: 113px;
+  margin-bottom: 30px;
+}
+
+.process-block .icon-box:before {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  margin: 0 auto;
+  height: 113px;
+  width: 105px;
+  background-image: url(/images/icons/shape-3.png);
+  z-index: -1;
+  content: "";
+}
+
+.process-block .icon-box img {
+  display: block;
+}
+
+.process-block h4 {
+  position: relative;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  color: #202124;
+}

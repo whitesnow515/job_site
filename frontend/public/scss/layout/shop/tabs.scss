@@ -1,0 +1,85 @@
+/*** 
+
+====================================================================
+Product Tabs
+====================================================================
+
+***/
+
+.product-info-tabs {
+  position: relative;
+  max-width: 850px;
+  margin: 0 auto;
+}
+
+.prod-tabs .tab-btns {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  z-index: 1;
+}
+
+.prod-tabs .tab-btns .tab-btn {
+  position: relative;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 32px;
+  color: #202124;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: pointer;
+  -webkit-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  border-bottom: 2px solid transparent;
+  margin: 0 20px;
+}
+
+.prod-tabs .tab-btns .tab-btn.active {
+  color: var(--primary-color);
+  border-bottom-color: var(--primary-color);
+}
+
+.prod-tabs .tab-content .content {
+  position: relative;
+  padding: 65px 0 0;
+}
+.prod-tabs .content h4 {
+  position: relative;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  color: #202124;
+  margin-bottom: 20px;
+}
+
+.prod-tabs .content p {
+  font-size: 15px;
+  line-height: 26px;
+  color: #696969;
+  margin-bottom: 26px;
+}
+
+.prod-tabs .content .list-style-two {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  max-width: 500px;
+}
+
+.prod-tabs .content .list-style-two li {
+  width: 50%;
+}

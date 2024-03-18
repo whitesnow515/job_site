@@ -1,0 +1,331 @@
+/***
+
+====================================================================
+CheckOut Page
+====================================================================
+
+***/
+
+.checkout-page{
+  position:relative;
+  padding:60px 0px 10px;
+}
+
+.checkout-page .column{
+  position: relative;
+  margin-bottom: 50px;
+}
+
+.checkout-page .title{
+  position: relative;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  color: #202124;
+  margin-bottom: 30px;
+}
+
+.checkout-form{
+  position:relative;
+  background: #ffffff;
+  
+  border-radius: 10px;
+  
+}
+
+.checkout-form .coupen-outer{
+  position: relative;
+  text-align: center;
+  margin-bottom: 35px;
+}
+
+.checkout-form .coupen-outer .text{
+  display: block;
+  font-size: 15px;
+  color: #5c6770;
+  font-weight: 400;
+  margin-bottom: 25px;
+}
+
+.checkout-form .coupen-outer .text a{
+  font-weight: 500;
+  color: #1b2032;
+}
+
+.checkout-form .coupen-outer .form-grou{
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.checkout-form .coupen-outer .input{
+  position: relative;
+  width: 100%;
+  display: block;
+  color: #5c6770;
+  font-size: 14px;
+  line-height: 30px;
+  padding: 10px 18px;
+  height: 54px;
+  max-width: 235px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  border: 2px solid #e6e8ed;
+  -webkit-transition: all 300ms ease;
+  -o-transition: all 300ms ease;
+  transition: all 300ms ease;
+  margin-right: 22px;
+}
+
+.checkout-form .default-form .field-label {
+  position: relative;
+  font-size: 15px;
+  line-height: 20px;
+  color: #202124;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.checkout-form .default-form .form-group input{
+  margin-bottom: 10px;
+}
+
+.checkout-form .default-form .form-group input:last-child{
+  margin-bottom: 0;
+}
+
+.checkout-form .default-form .form-group textarea{
+  height: 200px;
+}
+
+.order-box{
+  position:relative;
+  padding: 30px 30px;
+  background: #F5F7FC;
+  border-radius: 8px;
+  margin-bottom: 30px;
+}
+
+.order-box h3{
+  position: relative;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  color: #202124;
+  margin-bottom: 25px;
+}
+
+.order-box table{
+  width: 100%;
+}
+
+.order-box thead th{
+  position: relative;
+  padding-bottom: 11px;
+  border-bottom: 1px solid #E7E7EC;
+}
+
+.order-box thead th strong{
+  font-weight: 500;
+}
+
+.order-box .cart-item td{
+  font-size: 15px;
+  line-height: 20px;
+  color: #696969;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.order-box table th:last-child,
+.order-box table td:last-child{
+  position: relative;
+  text-align: right;
+}
+
+.order-box .cart-subtotal td{
+  padding: 15px 0;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  color: #202124;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #E7E7EC;
+}
+
+.order-box .order-total td{
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  color: #202124;
+  padding-top: 15px;
+}
+
+.payment-box{
+  position:relative;
+}
+
+.payment-options{
+  position:relative;
+  padding: 30px 30px;
+  background-color: #F5F7FC;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+.payment-box .payment-options li{
+  position:relative;
+  margin-bottom:35px; 
+}
+
+.payment-box .payment-options li .radio-option{
+  position:relative;    
+}
+
+.payment-box .payment-options li .radio-option label{
+  position:relative;
+  display:block;
+  padding-left:30px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 15px;
+  color: #202124;
+  text-transform:capitalize;
+  cursor:pointer;
+}
+
+.payment-box .payment-options li .radio-option label .small-text{
+  position:relative;
+  display:none;
+  text-transform:none;
+  margin-top: 10px;
+  font-size: 14px;
+  line-height: 24px;
+  color: #696969;
+}
+
+.payment-box .payment-options li .radio-option input:checked + label .small-text{
+  display:block;
+}
+
+.payment-box .payment-options li .radio-option label img{
+  position:relative;
+  margin-left: 15px;
+}
+
+.payment-box .btn-box .theme-btn{
+  position: relative;
+  display: block;
+  width: 100%;
+}
+
+/*** 
+
+====================================================================
+Order Slip
+====================================================================
+
+***/
+
+.order-confirmation{
+  position: relative;
+  padding: 100px 0 70px;
+}
+
+.order-confirmation .auto-container{
+  max-width: 770px;
+}
+
+.order-confirmation .upper-box{
+  position: relative;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.order-confirmation .upper-box .icon{
+  display: inline-block;
+  height: 80px;
+  width: 80px;
+  color: rgba(25, 103, 210, 1);
+  background: rgba(25, 103, 210, .1);
+  border-radius: 50%;
+  line-height: 80px;
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 13px;
+}
+
+.order-confirmation .upper-box h4{
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 41px;
+  color: #202124;
+  margin-bottom: 11px;
+}
+
+.order-confirmation .upper-box .text{
+  font-size: 15px;
+  line-height: 20px;
+  color: #696969;
+}
+
+.order-confirmation .order-info{
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  padding: 40px 40px 0;
+  background: #F5F7FC;
+  border-radius: 8px;
+  margin-bottom: 60px;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.order-confirmation .order-info li{
+  position: relative;
+  margin-right: 40px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 15px;
+  line-height: 20px;
+  color: #696969;
+  margin-bottom: 40px;
+}   
+
+.order-confirmation .order-info li:last-child{
+  margin-right: 0;
+}
+
+.order-confirmation .order-info li strong{
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  color: #202124;
+  margin-top: 13px;
+}
+
+.order-confirmation .order-box{
+  background: none;
+  border: 1px solid #ECEDF2;
+  border-radius: 8px;
+  padding: 50px 60px 60px;
+}

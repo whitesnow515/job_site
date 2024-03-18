@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Sofia Pro';
+    src: url('SofiaPro.eot');
+    src: url('SofiaPro.eot?#iefix') format('embedded-opentype'),
+        url('SofiaPro.woff2') format('woff2'),
+        url('SofiaPro.woff') format('woff'),
+        url('SofiaPro.ttf') format('truetype'),
+        url('SofiaPro.svg#SofiaPro') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

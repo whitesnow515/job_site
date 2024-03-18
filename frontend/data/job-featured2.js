@@ -1,0 +1,257 @@
+module.exports = [
+  {
+    id: 1,
+    logo: "/images/resource/company-logo/1-1.png",
+    jobTitle: "Software Engineer (Android), Libraries",
+    company: "Jobyz",
+    location: "Langenthal, BE",
+    time: "11 hours ago",
+    salary: "$35k - $45k",
+    jobType: [
+      {
+        styleClass: "time",
+        type: "Full Time",
+      },
+      {
+        styleClass: "privacy",
+        type: "Private",
+      },
+      {
+        styleClass: "required",
+        type: "Urgent",
+      },
+    ],
+    link: "https://segment.com",
+    tag: "freelancer",
+    destination: {
+      min: 0,
+      max: 20,
+    },
+    category: "Residential",
+    created_at: "Last Hour",
+    experience: "Fresh",
+    totalSalary: {
+      min: 0,
+      max: 500,
+    },
+    tag: "app",
+  },
+  {
+    id: 2,
+    logo: "/images/resource/company-logo/1-1.png",
+    jobTitle: "Recruiting Coordinator",
+    company: "Jobyz",
+    location: "Langenthal, BE",
+    time: "11 hours ago",
+    salary: "$35k - $45k",
+    jobType: [
+      {
+        styleClass: "time",
+        type: "Freelancer",
+      },
+      {
+        styleClass: "privacy",
+        type: "Private",
+      },
+      {
+        styleClass: "required",
+        type: "Urgent",
+      },
+    ],
+    link: "https://www.catalyst.org",
+    tag: "full-time",
+    destination: {
+      min: 20,
+      max: 30,
+    },
+    category: "Commercial",
+    created_at: "Last 24 Hour",
+    experience: "1 Year",
+    totalSalary: {
+      min: 500,
+      max: 1000,
+    },
+    tag: "administrative",
+  },
+  {
+    id: 3,
+    logo: "/images/resource/company-logo/1-1.png",
+    jobTitle: "Product Manager, Studio",
+    company: "Jobyz",
+    location: "Langenthal, BE",
+    time: "11 hours ago",
+    salary: "$35k - $45k",
+    jobType: [
+      {
+        styleClass: "time",
+        type: "Part Time",
+      },
+      {
+        styleClass: "privacy",
+        type: "Private",
+      },
+      {
+        styleClass: "required",
+        type: "Urgent",
+      },
+    ],
+    link: "https://www.invisionapp.com",
+    tag: "internship",
+    category: "Industrial",
+    created_at: "Last 7 Days",
+    experience: "2 Year",
+    totalSalary: {
+      min: 1000,
+      max: 1500,
+    },
+    tag: "android",
+  },
+  {
+    id: 4,
+    logo: "/images/resource/company-logo/1-1.png",
+    jobTitle: "Senior Product Designer",
+    company: "Jobyz",
+    location: "Langenthal, BE",
+    time: "11 hours ago",
+    salary: "$35k - $45k",
+    jobType: [
+      {
+        styleClass: "time",
+        type: "Temporary",
+      },
+      {
+        styleClass: "privacy",
+        type: "Private",
+      },
+      {
+        styleClass: "required",
+        type: "Urgent",
+      },
+    ],
+    link: "https://www.upwork.com",
+    tag: "freelancer",
+    destination: {
+      min: 30,
+      max: 40,
+    },
+    category: "Apartments",
+    created_at: "Last 14 Days",
+    experience: "3 Year",
+    totalSalary: {
+      min: 1500,
+      max: 2000,
+    },
+    tag: "wordpress",
+  },
+  {
+    id: 5,
+    logo: "/images/resource/company-logo/1-1.png",
+    jobTitle: "Senior Full Stack Engineer, Creator Success",
+    company: "Jobyz",
+    location: "London, UK",
+    time: "11 hours ago",
+    salary: "$35k - $45k",
+    jobType: [
+      {
+        styleClass: "time",
+        type: "Full Time",
+      },
+      {
+        styleClass: "privacy",
+        type: "Private",
+      },
+      {
+        styleClass: "required",
+        type: "Urgent",
+      },
+    ],
+    link: "https://medium.com",
+    tag: "full-time",
+    destination: {
+      min: 40,
+      max: 50,
+    },
+    category: "Residential",
+    created_at: "Last 30 Days",
+    experience: "4 Year",
+    totalSalary: {
+      min: 2000,
+      max: 2500,
+    },
+    tag: "design",
+  },
+  {
+    id: 6,
+    logo: "/images/resource/company-logo/1-1.png",
+    jobTitle: "Software Engineer (Android), Libraries",
+    company: "Jobyz",
+    location: "London, UK",
+    time: "11 hours ago",
+    salary: "$35k - $45k",
+    jobType: [
+      {
+        styleClass: "time",
+        type: "Freelancer",
+      },
+      {
+        styleClass: "privacy",
+        type: "Private",
+      },
+      {
+        styleClass: "required",
+        type: "Urgent",
+      },
+    ],
+    link: "https://www.figma.com",
+    tag: "internship",
+    destination: {
+      min: 50,
+      max: 60,
+    },
+    category: "Commercial",
+    created_at: "Last Hour",
+    experience: "1 Year",
+    totalSalary: {
+      min: 2500,
+      max: 3000,
+    },
+    tag: "react",
+  },
+  {
+    id: 7,
+    logo: "/images/resource/company-logo/1-1.png",
+    jobTitle: "Software Engineer (Android), Libraries",
+    company: "Segment",
+    location: "London, UK",
+    time: "11 hours ago",
+    salary: "$35k - $45k",
+    jobType: [
+      {
+        styleClass: "time",
+        type: "Part Time",
+      },
+      {
+        styleClass: "privacy",
+        type: "Private",
+      },
+      {
+        styleClass: "required",
+        type: "Urgent",
+      },
+    ],
+    link: "https://segment.com",
+    tag: "freelancer",
+    destination: {
+      min: 60,
+      max: 70,
+    },
+    category: "Industrial",
+    created_at: "Last 24 Hour",
+    experience: "2 Year",
+    totalSalary: {
+      min: 3000,
+      max: 3500,
+    },
+    tag: "app",
+  },
+];

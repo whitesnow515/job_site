@@ -1,0 +1,42 @@
+.portfolio-outer{
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.portfolio-outer .image{
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.portfolio-outer .image img{
+  display: block;
+  width: 100%;
+  border-radius: 5px;
+}
+
+.portfolio-outer .image .icon{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  height: 50px;
+  width: 50px;
+  background: var(--primary-color);
+  border-radius: 50%;
+  color: #ffffff;
+  text-align: center;
+  line-height: 50px;
+  -webkit-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  pointer-events: none;
+  -webkit-transition: all 300ms ease;
+  -o-transition: all 300ms ease;
+  transition: all 300ms ease;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.portfolio-outer .image:hover .icon{
+  opacity: 1;
+  visibility: visible;
+}

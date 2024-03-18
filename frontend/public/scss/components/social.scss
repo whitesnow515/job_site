@@ -1,0 +1,27 @@
+.social-btn {
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  color: inherit;
+  font-size: 16px;
+  border-radius: 5px;
+  background-color: inherit;
+  font-weight: 700;
+  padding: 10px 30px;
+  color: #ffffff;
+  line-height: 25px;
+}
+
+.social-btn span {
+  margin-right: 3px;
+}
+
+.social-btn.facebook-btn {
+  background-color: #3b5998;
+  color: #ffffff;
+}
+
+.social-btn.google-btn {
+  background-color: #dc4d28;
+  color: #ffffff;
+}

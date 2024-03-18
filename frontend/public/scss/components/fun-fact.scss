@@ -1,0 +1,49 @@
+/***
+
+====================================================================
+Fun Fact Section
+====================================================================
+
+***/
+
+.fun-fact-section{
+  position: relative;
+  padding: 100px 0 70px;
+  z-index: 1;
+}
+
+.fun-fact-section .counter-column{
+  position:relative;
+  text-align: center;
+  margin-bottom:30px;
+}
+
+.fun-fact-section .count-box{
+  position: relative;
+  display: block;
+  margin-bottom: 10px;
+  font-size: 50px;
+  line-height: 1em;
+  color: #202124;
+  font-weight: 500;
+}
+
+.fun-fact-section .counter-title{
+  font-size: 15px;
+  line-height: 30px;
+  color: #696969;
+  font-weight: 400;
+  display: block;
+}
+
+.fun-fact-section.style-two{
+  padding: 50px 0 20px;
+}
+
+.fun-fact-section.style-two .count-box{
+  color: var(--primary-color);
+}
+
+.fun-fact-section.style-two .counter-title{
+  color: #696969;
+}

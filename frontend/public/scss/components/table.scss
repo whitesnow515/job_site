@@ -1,0 +1,48 @@
+/*==========================
+default table
+===========================*/
+
+.table-outer {
+  overflow-y: hidden;
+  overflow-x: auto;
+}
+
+.default-table {
+  position: relative;
+  background: #ffffff;
+  border: 0;
+  border-radius: 5px;
+  margin-bottom: 30px;
+  overflow: hidden;
+  width: 100%;
+  min-width: 700px;
+}
+
+.default-table thead {
+  background: #f5f7fc;
+  border-radius: 8px;
+  color: #ffffff;
+}
+
+.default-table thead th {
+  position: relative;
+  padding: 20px 30px;
+  font-size: 16px;
+  color: var(--primary-color);
+  font-weight: 500;
+  line-height: 30px;
+  white-space: nowrap;
+}
+
+.default-table tbody tr {
+  position: relative;
+  border-bottom: 1px solid #ecedf2;
+}
+
+.default-table tr td {
+  position: relative;
+  padding: 21px 30px;
+  font-size: 14px;
+  color: #696969;
+  font-weight: 400;
+}

@@ -1,0 +1,136 @@
+.job-search-form {
+  position: relative;
+  background: #ffffff;
+  border: 1px solid #ecedf2;
+  -webkit-box-shadow: 0px 7px 18px rgba(64, 79, 104, 0.05);
+  box-shadow: 0px 7px 18px rgba(64, 79, 104, 0.05);
+  border-radius: 10px;
+  min-width: 740px;
+  margin-bottom: 22px;
+}
+
+.job-search-form {
+  background: #ffffff;
+  padding: 20px 20px;
+  padding-left: 30px;
+  border-radius: 10px;
+}
+
+.job-search-form .form-group {
+  position: relative;
+  text-align: left;
+  margin-bottom: 0;
+}
+
+.job-search-form .form-group .icon {
+  position: absolute;
+  left: 15px;
+  top: 50%;
+  margin-top: -15px;
+  width: 30px;
+  text-align: center;
+  line-height: 30px;
+  font-size: 24px;
+  color: #5c6770;
+  background: #ffffff;
+  z-index: 9;
+}
+
+.job-search-form .form-group.category {
+  border-left: 1px solid #e6e6e6;
+}
+.job-search-form .form-group:first-child {
+  border-right: 1px solid #e6e6e6;
+}
+
+.job-search-form .ui-selectmenu-button.ui-button,
+.job-search-form .chosen-container-single .chosen-single,
+.job-search-form .form-group input,
+.job-search-form .form-group select,
+.job-search-form .form-group textarea {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 60px;
+  font-size: 15px;
+  color: #696969;
+  line-height: 30px;
+  font-weight: 400;
+  background-color: #ffffff;
+  padding: 15px 0px;
+  padding-left: 40px;
+  border: 0;
+  border-radius: 0;
+  -webkit-transition: all 300ms ease;
+  -o-transition: all 300ms ease;
+  transition: all 300ms ease;
+}
+
+.job-search-form .chosen-container-multi .chosen-choices,
+.job-search-form .chosen-container.chosen-with-drop .chosen-drop {
+  background: #ffffff;
+}
+
+.job-search-form .chosen-container-single .chosen-single {
+  padding-left: 40px;
+  border: 1px solid #ffffff !important;
+  border-bottom: 0 !important;
+  border-radius: 8px;
+}
+
+.job-search-form .chosen-container-single .chosen-drop {
+  /*    border: 1px solid #ffffff !important;
+border-top: 0 !important;*/
+}
+
+.job-search-form .chosen-container-active .chosen-single {
+  /*    border: 1px solid #dddddd !important;
+border-bottom: 0 !important;*/
+}
+
+.job-search-form .chosen-container-active .chosen-drop {
+  border: 1px solid #ecedf2 !important;
+  box-shadow: 0px 6px 15px rgba(64, 79, 104, 0.05);
+  border-radius: 8px !important;
+  padding-top: 10px !important;
+}
+
+.job-search-form .form-group.btn-box {
+  text-align: right;
+}
+
+.job-search-form .form-group .theme-btn {
+  width: 90%;
+  min-width: auto;
+  height: 40px;
+}
+
+/* Job Search Form */
+
+.job-search-form.style-two,
+.job-search-form.style-two form,
+.job-search-form.style-two .form-group .icon,
+.job-search-form.style-two .form-group,
+.job-search-form.style-two .ui-selectmenu-button.ui-button,
+.job-search-form.style-two .ui-selectmenu-button.ui-button,
+.job-search-form.style-two .chosen-container-single .chosen-single span,
+.job-search-form.style-two .chosen-container-single .chosen-single,
+.job-search-form.style-two .form-group input,
+.job-search-form.style-two .form-group select,
+.job-search-form.style-two .form-group textarea {
+  background-color: var(--primary-color);
+  color: #ffffff;
+  border-color: var(--primary-color) !important;
+}
+
+.job-search-form.style-two .chosen-container-single .chosen-single {
+  padding-left: 40px;
+}
+
+.job-search-form.style-two .chosen-container-single .chosen-single div:after {
+  color: #fff;
+}
+
+.job-search-form.style-two .form-group {
+  border-right: 1px solid rgba(255, 255, 255, 0.2);
+}

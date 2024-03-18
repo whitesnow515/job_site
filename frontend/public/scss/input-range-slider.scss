@@ -1,0 +1,142 @@
+.input-range__slider {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: #fff;
+    border: 2px solid var(--primary-color);
+    border-radius: 100%;
+    cursor: pointer;
+    display: block;
+    height: 17px;
+    margin-left: -0.5rem;
+    margin-top: -0.65rem;
+    outline: none;
+    position: absolute;
+    top: 50%;
+    transition: transform 0.3s ease-out, box-shadow 0.3s ease-out;
+    width: 17px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+}
+
+.input-range__slider:focus {
+    box-shadow: none;
+}
+.input-range__slider:active {
+    transform: scale(1.3);
+}
+.input-range__slider:focus {
+    box-shadow: 0 0 0 5px rgba(63, 81, 181, 0.2);
+}
+.input-range--disabled .input-range__slider {
+    background: #cccccc;
+    border: 1px solid #cccccc;
+    box-shadow: none;
+    transform: none;
+}
+
+.input-range__slider-container {
+    transition: left 0.3s ease-out;
+}
+
+.input-range__label {
+    color: #aaaaaa;
+    font-family: "Helvetica Neue", san-serif;
+    font-size: 0.8rem;
+    transform: translateZ(0);
+    white-space: nowrap;
+}
+
+.input-range__label--min,
+.input-range__label--max {
+    bottom: -1.4rem;
+    position: absolute;
+}
+
+.input-range__label--min {
+    left: 0;
+}
+
+.input-range__label--max {
+    right: 0;
+}
+
+.input-range__label--value {
+    position: absolute;
+    top: -1.8rem;
+}
+
+.input-range__label-container {
+    left: -50%;
+    position: relative;
+}
+.input-range__label--max .input-range__label-container {
+    left: 50%;
+}
+
+.input-range__track {
+    background: #d4e1f6;
+    border-radius: 0.3rem;
+    cursor: pointer;
+    display: block;
+    height: 5px;
+    position: relative;
+    transition: left 0.3s ease-out, width 0.3s ease-out;
+}
+.input-range--disabled .input-range__track {
+    background: var(--primary-color);
+}
+
+.input-range__track--background {
+    left: 0;
+    margin-top: -0.15rem;
+    position: absolute;
+    right: 0;
+    top: 50%;
+}
+
+.input-range__track--active {
+    background: var(--primary-color);
+}
+
+.input-range {
+    height: 1rem;
+    position: relative;
+    width: 100%;
+}
+.nft__filter-price-box {
+    width: 47px;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.nft__filter-price-box input {
+    width: 100%;
+    background-color: #fff;
+    border: none;
+    padding-left: 0;
+    padding-right: 0;
+    pointer-events: none;
+    color: #006c70;
+    font-size: 16px;
+    font-family: "Nunito";
+    font-weight: bold;
+}
+.nft__filter-price-box span {
+    color: #006c70;
+    font-size: 16px;
+    font-family: "Nunito";
+    font-weight: bold;
+}
+.nft__filter-price-to span {
+    color: #fff;
+    opacity: 0.6;
+    margin: 0 10px;
+}
+
+.pricing_acontent {
+    .input-range {
+        margin-top: 20px;
+    }
+}

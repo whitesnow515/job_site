@@ -1,0 +1,113 @@
+/*** 
+
+====================================================================
+Registeration Banners
+====================================================================
+
+***/
+
+.registeration-banners{
+  position: relative;
+  padding: 100px 0 70px;
+  border-bottom: 1px solid #ECEDF2;
+}
+
+.banner-style-one{
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.banner-style-one .inner-box{
+  position: relative;
+  background: rgba(32,33,36,.40);
+  border-radius: 8px;
+  padding: 54px 60px;
+}
+
+.banner-style-one .content{
+  position: relative;
+  padding-right: 220px;
+}
+
+.banner-style-one h3{
+  position: relative;
+  display: block;
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 38px;
+  color: #FFFFFF;
+  margin-bottom: 13px;
+}
+
+.banner-style-one p{
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #FFFFFF;
+  margin-bottom: 17px;
+} 
+
+.banner-style-one .theme-btn{
+  position: relative;
+  min-width: 240px;
+  background: #ffffff;
+  color: #202124;
+}
+
+.banner-style-one .image{
+  position: absolute;
+  right: 30px;
+  bottom: 0;
+  margin-bottom: 0;
+}
+
+/* Banner Style Two */
+
+.banner-style-two{
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.banner-style-two .inner-box{
+  position: relative;
+  background: rgba(217,48,37,.60);
+  border-radius: 8px;
+  padding: 54px 60px;
+}
+
+.banner-style-two .content{
+  position: relative;
+  padding-right: 220px;
+}
+
+.banner-style-two h3{
+  position: relative;
+  display: block;
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 38px;
+  color: #FFFFFF;
+  margin-bottom: 13px;
+}
+
+.banner-style-two p{
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #FFFFFF;
+  margin-bottom: 17px;
+} 
+
+.banner-style-two .theme-btn{
+  position: relative;
+  min-width: 240px;
+  color: #D93025;
+  background: #ffffff;
+}
+
+.banner-style-two .image{
+  position: absolute;
+  right: 30px;
+  bottom: 0;
+  margin-bottom: 0;
+}

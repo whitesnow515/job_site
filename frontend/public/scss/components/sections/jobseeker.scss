@@ -1,0 +1,84 @@
+/*** 
+
+====================================================================
+Jobseeker Section
+====================================================================
+
+***/
+
+.jobseeker-section{
+  position: relative;
+}
+
+.jobseeker-section .outer-box{
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.jobseeker-section .image-column{
+  position: relative;
+  width: 50%;
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 50%;
+  flex: 0 0 50%;
+  -webkit-box-ordinal-group: 3;
+  -ms-flex-order: 2;
+  order: 2;
+}
+
+.jobseeker-section .image-column .image{
+  position: relative;
+  display: block;
+  margin-bottom: 0;
+}
+
+.jobseeker-section .image-column .image img{
+  width: 100%;
+  border-radius: 0 30px 30px 0;
+}
+
+.jobseeker-section .content-column{
+  position: relative;
+  width: 50%;
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 50%;
+  flex: 0 0 50%;
+  padding: 100px 0;
+}
+
+.jobseeker-section .content-column{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.jobseeker-section .content-column .inner-column{
+  position: relative;
+  max-width: 655px;
+  width: 100%;
+  padding: 0 15px;
+}
+
+.jobseeker-section .content-column .sec-title{
+  margin-bottom: 0;
+  max-width: 420px;
+}
+
+.jobseeker-section .content-column .theme-btn{
+  margin-top: 18px;
+  min-width: 180px;
+}

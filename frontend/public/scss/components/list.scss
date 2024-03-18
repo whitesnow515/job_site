@@ -1,0 +1,65 @@
+/***
+
+=======================
+List Style one
+=======================
+
+***/
+
+.list-style-one {
+  position: relative;
+}
+
+.list-style-one li {
+  position: relative;
+  padding-left: 30px;
+  font-size: 15px;
+  line-height: 26px;
+  color: #202124;
+  font-weight: 400;
+  cursor: default;
+  margin-bottom: 20px;
+}
+
+.list-style-one li:before{
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-size: 17px;
+  line-height: 26px;
+  content: "\f172";
+  font-family: "flaticon";
+}
+
+/***
+
+=======================
+List Style Two
+=======================
+
+***/
+
+.list-style-two {
+  position: relative;
+}
+
+.list-style-two li {
+  position: relative;
+  font-size: 14px;
+  line-height: 19px;
+  color: #696969;
+  cursor: default;
+  padding-left: 22px;
+  margin-bottom: 20px;
+}
+
+.list-style-two li:before{
+  position: absolute;
+  left: 0;
+  top: 9px;
+  width: 8px;
+  height: 8px;
+  background: #C4C4C4;
+  border-radius: 50%;
+  content: "";
+}

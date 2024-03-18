@@ -1,0 +1,104 @@
+/*** 
+
+====================================================================
+Clients Section
+====================================================================
+
+***/
+
+.clients-section{
+  position: relative;
+  padding: 60px 0 60px;
+  border-bottom: 1px solid #ECEDF2;
+}
+
+.clients-section.alternate{
+  padding: 80px 0 0;
+  border-bottom: 0;
+}
+
+.clients-section.alternate2{
+  padding: 60px 0 100px;
+}
+
+.clients-section .sponsors-outer{
+  position: relative;
+  padding: 0 15px;
+  max-width: 1430px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.clients-section .slide-item{
+  position: relative;
+}
+
+.clients-section .image-box{
+  position: relative;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.clients-section .image-box img{
+  position: relative;
+  display: inline-block;
+  max-width: 50%;
+  width: auto;
+  -webkit-transition: all 300ms ease;
+  -o-transition: all 300ms ease;
+  transition: all 300ms ease;
+}
+
+/*** 
+
+====================================================================
+Clients Section Two
+====================================================================
+
+***/
+
+.clients-section-two{
+  position: relative;
+  padding: 60px 0 0;
+}
+
+.clients-section-two .sponsors-outer{
+  position: relative;
+  padding: 0 15px;
+  max-width: 1310px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.clients-section-two .slide-item{
+  position: relative;
+}
+
+.clients-section-two .image-box{
+  position: relative;
+  text-align: center;
+  padding: 15px 0;
+  margin-bottom: 0;
+}
+
+.clients-section-two .image-box img{
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+  width: auto;
+  height: 40px;
+  -webkit-filter: grayscale(1);
+  filter: grayscale(1);
+  -webkit-transition: all 300ms ease;
+  -o-transition: all 300ms ease;
+  transition: all 300ms ease;
+}
+
+.clients-section-two .image-box img:hover{
+  -webkit-filter: grayscale(0);
+  filter: grayscale(0);
+}
+
+.clients-section-two.alternate{
+  padding: 100px 0;
+}

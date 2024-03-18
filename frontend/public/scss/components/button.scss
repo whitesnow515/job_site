@@ -1,0 +1,182 @@
+/*** 
+======================
+Buttons Styles
+======================
+***/
+
+.theme-btn {
+  position: relative;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  overflow: hidden;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+/* Btn Style One */
+.btn-style-one {
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  color: #ffffff;
+  background-color: var(--primary-color);
+  font-size: 15px;
+  line-height: 20px;
+  border-radius: 8px;
+  font-weight: 400;
+  padding: 18px 35px 15px 35px;
+}
+
+.btn-style-one:hover {
+  color: #ffffff;
+  background-color: var(--primary-hover-bg-color);
+}
+
+/* Btn Style Two */
+.btn-style-two {
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  color: #202124;
+  background-color: var(--primary-2nd-color);
+  font-size: 15px;
+  line-height: 20px;
+  border-radius: 8px;
+  font-weight: 400;
+  padding: 18px 35px 15px 35px;
+}
+
+.btn-style-two:hover {
+  color: #202124;
+  background-color: var(--primary-2nd-hover-bg-color);
+}
+
+/* Btn Style Three */
+.btn-style-three {
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  color: var(--primary-color);
+  background-color: #e2eaf8;
+  font-size: 15px;
+  line-height: 20px;
+  border-radius: 8px;
+  font-weight: 400;
+  padding: 18px 35px 15px 35px;
+}
+
+.btn-style-three:hover {
+  color: #ffffff;
+  background-color: var(--primary-hover-bg-color);
+}
+
+/* Btn Style Four */
+.btn-style-four {
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  color: var(--primary-color);
+  background-color: #e2eaf8;
+  font-size: 16px;
+  line-height: 20px;
+  border-radius: 8px;
+  font-weight: 400;
+  padding: 15px 35px;
+}
+
+.btn-style-four:hover {
+  color: #ffffff;
+  background-color: var(--primary-hover-bg-color);
+}
+
+/* Btn Style Five */
+.btn-style-five {
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  color: var(--primary-color);
+  background-color: #ffffff;
+  border: 1px solid #ffffff;
+  line-height: 20px;
+  border-radius: 8px;
+  font-weight: 400;
+  padding: 14px 35px;
+}
+
+.btn-style-five:hover {
+  color: #ffffff;
+  background-color: transparent;
+}
+
+/* Btn Style Six */
+.btn-style-six {
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  color: #ffffff;
+  background-color: transparent;
+  border: 1px solid #ffffff;
+  line-height: 20px;
+  border-radius: 8px;
+  font-weight: 400;
+  padding: 14px 35px;
+}
+
+.btn-style-six:hover {
+  color: var(--primary-color);
+  background-color: #ffffff;
+}
+
+/* Btn Style Seven */
+.btn-style-seven {
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  color: #ffffff;
+  background-color: var(--primary-color);
+  line-height: 20px;
+  border-radius: 8px;
+  font-weight: 400;
+  padding: 15px 35px;
+}
+
+.btn-style-seven:hover {
+  color: var(--primary-color);
+  background-color: #e2eaf8;
+}
+
+/* Btn Style Seven */
+
+.btn-style-eight {
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  color: var(--primary-color);
+  line-height: 20px;
+  border-radius: 8px;
+  font-weight: 400;
+  padding: 15px 35px;
+}
+
+.theme-btn.large {
+  padding: 20px 50px;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.theme-btn.small {
+  padding: 5px 18px;
+  font-size: 14px;
+  min-width: 80px;
+  font-weight: 400;
+  line-height: 21px;
+  border-radius: 5px;
+}

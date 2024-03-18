@@ -1,0 +1,70 @@
+/***
+
+==================================================================
+Browse Jobs
+==================================================================
+
+***/
+
+.browse-jobs{
+  position: relative;
+  padding: 100px 0 70px;
+}
+
+.browse-jobs .column{
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.browse-jobs h4{
+  font-size: 18px;
+  line-height: 24px;
+  color: #202124;
+  font-weight: 500;
+  margin-bottom: 21px;
+}
+
+.links-list{
+  position: relative;
+}
+
+.links-list li{
+  position:relative;
+  display: block;
+  font-size: 15px;
+  line-height: 30px;
+  color: #696969;
+}
+
+.links-list li a{
+  display: inline-block;
+  color: #696969;
+  -webkit-transition: all 200ms ease;
+  -o-transition: all 200ms ease;
+  transition: all 200ms ease;
+}
+
+.links-list li:before{
+  position: absolute;
+  left: 0;
+  top: 50%;
+  height: 2px;
+  width: 0px;
+  margin-top: -1px;
+  content: "";
+  border-bottom: 2px solid var(--primary-color);
+  -webkit-transition: all 300ms ease;
+  -o-transition: all 300ms ease;
+  transition: all 300ms ease;
+}
+
+.links-list li:hover:before{
+  width: 15px;
+}
+
+.links-list li:hover a{
+  -webkit-transform: translateX(25px);
+  -ms-transform: translateX(25px);
+  transform: translateX(25px);
+  color: var(--primary-color);
+}

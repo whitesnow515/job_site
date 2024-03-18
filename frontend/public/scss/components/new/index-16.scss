@@ -1,0 +1,382 @@
+.main-header.header-style-four.-type-16 {
+  .main-menu {
+    margin-left: 15px;
+  }
+
+  .theme-btn.btn-style-six {
+    border: none;
+  }
+}
+
+.banner-section-four.-type-16 {
+  padding: 0;
+  height: auto;
+
+  .content-box {
+    padding-top: 290px;
+    padding-bottom: 60px;
+
+    @include media-below(lg) {
+      padding-top: 220px;
+    }
+    @include media-below(md) {
+      padding-top: 180px;
+    }
+    @include media-below(sm) {
+      padding-top: 140px;
+    }
+
+    .title-box {
+      h3 {
+        font-size: 50px;
+        font-weight: 700;
+        line-height: 1.2;
+
+        @include media-below(md) {
+          font-size: 30px;
+        }
+      }
+
+      p {
+        margin-top: 20px;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 1;
+        color: white;
+      }
+    }
+  }
+
+  .job-search-form {
+    margin: 0 !important;
+    margin: 56px auto 0 !important;
+    border-radius: 150px;
+    max-width: 740px;
+    margin: 0 auto 20px;
+
+    .theme-btn {
+      background-color: var(--primary-color);
+      padding-left: 42px !important;
+      padding-right: 42px !important;
+      width: 150px;
+    }
+
+    .form-group:first-child {
+      border: none;
+    }
+  }
+
+  .features-icons {
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: -15px -30px;
+
+    @include media-below(md) {
+      padding-top: 50px;
+    }
+
+    > * {
+      padding: 15px 30px;
+
+      @include media-below(md) {
+        width: 33.33333%;
+      }
+      @include media-below(sm) {
+        width: 50%;
+        padding: 15px 16px;
+      }
+    }
+
+    .item {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      .icon-wrap {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 100%;
+        width: 70px;
+        height: 70px;
+        margin: auto;
+        font-size: 34px;
+        background-color: rgba(white, 0.2);
+        color: white;
+        transition: all 0.15s ease;
+      }
+
+      .icon {
+      }
+
+      .title {
+        margin-top: 15px;
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 1;
+        color: white;
+      }
+
+      &:hover {
+        .icon-wrap {
+          background-color: white;
+          color: var(--primary-color);
+        }
+      }
+    }
+  }
+}
+
+.tab-buttons.-pills-condensed.-blue {
+  .active-btn {
+    background-color: var(--primary-color) !important;
+  }
+}
+
+.call-to-action-two.-type-4 {
+  .theme-btn {
+    padding: 15px 38px !important;
+    border-radius: 8px;
+    transition: all 0.15s ease;
+
+    &.btn-one {
+      background-color: white;
+      color: #121637;
+
+      &:hover {
+        background-color: var(--primary-color);
+        color: white;
+      }
+    }
+
+    &.btn-two {
+      background-color: var(--primary-color);
+      color: white;
+
+      &:hover {
+        background-color: white;
+        color: #121637;
+      }
+    }
+  }
+}
+
+.work-block.-type-4 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+
+  .icon-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    box-shadow: 0px 25px 70px rgba(1, 33, 58, 0.07);
+    border-radius: 100%;
+    width: 120px;
+    height: 120px;
+    min-width: 120px;
+    min-height: 120px;
+    font-size: 40px;
+    transition: all 0.15s ease;
+  }
+
+  .icon::before {
+    color: #1a3454;
+    transition: all 0.15s ease;
+  }
+
+  .title {
+    margin-top: 32px;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.2;
+    color: #202124;
+  }
+
+  .text {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    color: #696969;
+    margin-top: 10px;
+  }
+
+  &:hover {
+    .icon-wrap {
+      background-color: var(--primary-color);
+    }
+
+    .icon::before {
+      color: white;
+    }
+  }
+}
+
+.section-bg-color {
+  &__item.-very-light-blue {
+    background-color: #f3f4f6;
+  }
+}
+
+.text-dark-3 {
+  color: #202124 !important;
+}
+
+.sec-title.-type-3 {
+  h2 {
+    margin: 0;
+  }
+
+  .text {
+    margin: 0;
+    margin-top: 5px;
+  }
+}
+
+.testimonial-section.-type-2 {
+  overflow: hidden;
+  background-color: transparent;
+
+  .inner-box {
+    overflow: hidden;
+    padding: 60px;
+    padding-right: 80px;
+
+    @include media-below(md) {
+      padding: 40px;
+    }
+
+    &::after {
+      content: "";
+      position: absolute;
+      bottom: -5px;
+      left: 0;
+      width: 100%;
+      height: 10px;
+      background-color: var(--primary-color);
+      border: 1px solid #ecedf2;
+      opacity: 0;
+      transition: all 0.15s ease;
+    }
+  }
+
+  .slick-active.slick-current {
+    .inner-box {
+      box-shadow: 0px 40px 30px rgba(25, 25, 46, 0.04);
+    }
+
+    .inner-box::after {
+      opacity: 1;
+    }
+  }
+
+  .info-box {
+    display: flex;
+
+    .content {
+      .thumb {
+      }
+
+      .name {
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 1;
+        color: #1a3454;
+      }
+
+      .designation {
+        margin-top: 4px;
+
+        font-size: 14px;
+        line-height: 26px;
+      }
+    }
+  }
+
+  .text {
+    margin: 0;
+    margin-top: 40px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #696969;
+
+    @include media-below(md) {
+      margin-top: 20px;
+    }
+  }
+}
+
+.cta.-type-2 {
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 150px 0;
+
+  @include media-below(md) {
+    padding: 80px 0;
+  }
+
+  .cta-item {
+    padding: 40px 50px;
+    padding-right: 80px;
+    display: flex;
+    background-color: #121637;
+    border-radius: 8px;
+
+    @include media-below(md) {
+      padding: 30px;
+    }
+
+    &.-blue {
+      background-color: var(--primary-color);
+      text-align: right;
+      padding: 40px 50px;
+      padding-left: 80px;
+
+      @include media-below(md) {
+        padding: 30px;
+      }
+
+      .content {
+        margin-left: 0;
+        margin-right: 30px;
+      }
+    }
+  }
+
+  .icon-wrap {
+  }
+
+  .icon::before {
+    font-size: 45px;
+    color: white;
+  }
+
+  .content {
+    margin-left: 30px;
+  }
+
+  .title {
+    color: white;
+
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 22px;
+  }
+
+  .text {
+    margin-top: 15px;
+    color: white;
+
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 24px;
+  }
+}

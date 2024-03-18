@@ -1,0 +1,219 @@
+/************************ Mega Menu ***************************/
+
+.main-menu .navigation > li.has-mega-menu {
+  position: static;
+}
+
+.main-menu .navigation > li > .mega-menu .image-box {
+  position: absolute;
+  right: -230px;
+  top: -15px;
+  padding: 20px;
+}
+
+.main-menu .navigation > li > .mega-menu {
+  position: absolute;
+  left: auto;
+  right: auto;
+  margin: auto;
+  width: 880px;
+  background: #ffffff;
+  padding: 30px 30px;
+  min-height: 225px;
+  top: 100%;
+  z-index: 100;
+  opacity: 0;
+  margin-top: -15px;
+  -webkit-box-shadow: 0px 6px 15px rgba(64, 79, 104, 0.05);
+  box-shadow: 0px 6px 15px rgba(64, 79, 104, 0.05);
+  border-radius: 0px 0px 8px 8px;
+  border-top: 2px solid var(--primary-color);
+  -webkit-transition: all 300ms ease;
+  -o-transition: all 300ms ease;
+  transition: all 300ms ease;
+  -webkit-transform: scaleY(0);
+  -ms-transform: scaleY(0);
+  transform: scaleY(0);
+  -webkit-transform-origin: top;
+  -ms-transform-origin: top;
+  transform-origin: top;
+}
+
+.main-menu .navigation > li:hover > .mega-menu {
+  opacity: 1;
+  visibility: visible;
+  -webkit-transform: scaleY(1);
+  -ms-transform: scaleY(1);
+  transform: scaleY(1);
+}
+
+.main-menu .navigation > li > .mega-menu:before {
+  position: absolute;
+  left: 20px;
+  top: -7px;
+  border-left: 7px solid transparent;
+  border-right: 7px solid transparent;
+  border-bottom: 5px solid var(--primary-color);
+  content: "";
+}
+
+.main-menu .navigation > li > .mega-menu .mega-menu-bar {
+  position: relative;
+  padding-top: 40px;
+}
+
+.main-menu .navigation > li .mega-menu-bar .column {
+  position: relative;
+}
+
+.main-menu .navigation > li .mega-menu-bar h3 {
+  position: absolute;
+  top: -40px;
+  left: 15px;
+  font-size: 16px;
+  line-height: 25px;
+  color: #202124;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+
+.main-menu .navigation > li .mega-menu-bar > ul {
+  position: relative;
+}
+
+.main-menu .navigation > li .mega-menu-bar .column > ul > li {
+  position: relative;
+  width: 100%;
+  text-transform: capitalize;
+  transition: all 500ms ease;
+  -moz-transition: all 500ms ease;
+  -webkit-transition: all 500ms ease;
+  -ms-transition: all 500ms ease;
+  -o-transition: all 500ms ease;
+}
+
+.main-menu .navigation > li .mega-menu-bar .column {
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.main-menu .navigation > li .mega-menu-bar .column > ul > li:last-child {
+  margin-bottom: 0;
+}
+
+.main-menu .navigation > li .mega-menu-bar .column > ul > li > a {
+  position: relative;
+  display: block;
+  line-height: 20px;
+  font-weight: 400;
+  font-size: 15px;
+  color: #202124;
+  padding: 10px 0;
+  text-align: left;
+  text-transform: capitalize;
+  -webkit-transition: all 500ms ease;
+  -o-transition: all 500ms ease;
+  transition: all 500ms ease;
+}
+
+.main-menu .navigation > li .mega-menu-bar .column > ul > li > a:hover {
+  color: var(--primary-color);
+}
+
+// custom sidebar pro mobile menu css
+.main-header-mobile {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 99;
+  box-shadow: 0px 6px 15px rgb(64 79 104 / 5%) !important;
+  @media (max-width: 1266px) {
+    display: block;
+  }
+
+  .login-box .icon-user {
+    position: relative;
+    height: 18px;
+    width: 18px;
+    display: block;
+    background-image: url(../../images/icons/user.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+}
+.offcanvas {
+  width: 320px !important;
+}
+.mobile_menu-contnet {
+  &.offcanvas {
+    min-height: 100vh;
+    overflow-y: auto;
+
+    .ps-sidebar-root {
+      width: 100%;
+      min-width: 100%;
+      border-right: none;
+      border-top: 1px solid #efefef;
+
+      ul li a {
+        font-size: 16px;
+      }
+      .ps-submenu-content {
+        ul li a {
+          padding-left: 30px;
+          padding-right: 20px;
+          font-size: 15px;
+        }
+      }
+
+      .ps-submenu-expand-icon > span {
+        width: 8px;
+        height: 8px;
+        color: #666;
+      }
+    }
+  }
+}
+.main-header-mobile {
+  .inner-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .mobile-nav-toggler {
+      font-size: 25px;
+      font-size: 25px;
+      color: #222;
+      margin-left: 20px;
+    }
+  }
+}
+.fix-icon {
+  font-size: 28px;
+  font-weight: 600;
+  color: #666;
+  cursor: pointer;
+}
+.pro-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 15px;
+
+  .fix-icon {
+    font-size: 28px;
+    font-weight: 600;
+    color: #666;
+    cursor: pointer;
+  }
+}
+
+.mm-add-listing.pro-footer {
+  margin-top: 10px;
+  padding: 20px 15px;
+  .phone-num a {
+    color: #555;
+  }
+}

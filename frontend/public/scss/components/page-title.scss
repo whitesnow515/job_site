@@ -1,0 +1,124 @@
+/*** 
+
+====================================================================
+Page Title
+====================================================================
+
+***/
+
+.page-title {
+  position: relative;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  padding: 50px 0 40px;
+  background: #F5F7FC;
+}
+
+.page-title:before{
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-image: url(../../images/icons/bg-4.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  content: "";
+}
+
+.page-title h1{
+  position:relative;
+  display: block;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 41px;
+  text-align: center;
+  color: #202124;
+  margin-bottom: 10px;
+}
+
+.page-breadcrumb{
+  font-size: 15px;
+  line-height: initial;
+  margin: 5px -15px 10px;
+}
+
+.page-breadcrumb li{
+  position:relative;
+  display:inline-block;
+  font-size: 15px;
+  line-height: 20px;
+  color: #696969;
+  padding: 0 8px;
+  text-transform:capitalize;
+}
+
+.page-breadcrumb li:after{
+  position: absolute;
+  top: 2px;
+  right: -5px;
+  content: "/";
+  font-size: 15px;
+  line-height: 20px;
+  color: #696969;
+}
+
+.page-breadcrumb li:last-child::after{
+  display: none;
+}
+
+.page-breadcrumb li a{
+  color:rgba(0,0,0,0.75);
+  text-transform: capitalize;
+  -webkit-transition:all 0.3s ease;
+  -o-transition:all 0.3s ease;
+  transition:all 0.3s ease;
+}
+
+.page-breadcrumb li a:hover{
+  opacity: .9;
+  color: #1370b5;
+}
+
+/* Style Two */
+
+.page-title.style-two{
+  padding: 100px 0;
+}
+
+.page-title .job-search-form{
+  margin-bottom: 0;
+}
+
+/* Style Tgree */
+
+.page-title.style-three{
+  padding: 70px 0 50px;
+  background: #ffffff;
+}
+
+.page-title.style-three:before{
+  display: none;
+}
+
+.page-title .top-filters{
+  margin-top: 30px;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.page-title .top-filters .form-group{
+  margin: 0 10px;
+}
+
+.page-title.bg-light{
+  background: none !important;
+}
+
+.page-title.bg-light:before{
+  display: none;
+}

@@ -1,0 +1,428 @@
+/*** 
+
+====================================================================
+About Section
+====================================================================
+
+***/
+
+.about-section {
+  position: relative;
+  padding: 100px 0 0;
+}
+
+.about-section .content-column {
+  position: relative;
+  margin-bottom: 50px;
+}
+
+.about-section .content-column .inner-column {
+  position: relative;
+  padding-left: 70px;
+}
+
+.about-section .sec-title {
+  margin-bottom: 30px;
+}
+
+.about-section .sec-title h2 {
+  font-size: 40px;
+  line-height: 54px;
+  color: #202124;
+}
+
+.about-section .sec-title .text {
+  max-width: 415px;
+  font-size: 15px;
+  line-height: 26px;
+  color: #696969;
+}
+
+.about-section .list-style-one {
+  margin-bottom: 40px;
+}
+
+.about-section .image-column {
+  position: relative;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.about-section .image-column .image {
+  position: relative;
+  margin-bottom: 0;
+}
+
+.play-btn {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.play-btn .icon {
+  width: 90px;
+  height: 90px;
+  background: #ffffff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-size: 32px;
+  padding-left: 5px;
+  color: #000000;
+  border-radius: 50%;
+}
+
+.about-section .count-employers {
+  position: absolute;
+  right: -150px;
+  bottom: -50px;
+  max-width: 300px;
+  padding: 25px 32px 30px;
+  background: #ffffff;
+  border: 1px solid #ecedf2;
+  -webkit-box-shadow: 0px 46px 35px rgba(25, 25, 46, 0.04);
+  box-shadow: 0px 46px 35px rgba(25, 25, 46, 0.04);
+  border-radius: 10px;
+  text-align: center;
+}
+
+.about-section .count-employers .check-box {
+  position: absolute;
+  left: 5px;
+  top: 0;
+  height: 60px;
+  width: 60px;
+  background: var(--primary-color);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-size: 24px;
+  color: #ffffff;
+  border-radius: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.about-section .count-employers .title {
+  display: block;
+  font-size: 15px;
+  line-height: 22px;
+  color: #202124;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+
+.about-section .count-employers .image {
+  margin-bottom: 0;
+}
+
+/*===================================
+About Ssection / Style Two
+====================================*/
+
+.about-section.style-two .image-column .inner-column {
+  position: relative;
+  padding-right: 17px;
+}
+
+.about-section.style-two .content-column .inner-column {
+  padding-left: 110px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  height: 100%;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+}
+
+.about-section.style-two .list-style-two {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.about-section.style-two .content-column h2 {
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 38px;
+  color: #000000;
+}
+
+.about-section.style-two .content-column .sec-title .text {
+  max-width: 100%;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.about-section.style-two .sec-title {
+  margin-bottom: 43px;
+}
+
+.about-section.style-two .content-column .theme-btn {
+  min-width: 190px;
+}
+
+.about-section.style-two .fun-fact-section {
+  padding: 60px 0 70px;
+}
+
+.about-section.style-two .fun-fact-section .count-box {
+  color: var(--primary-color);
+}
+
+.about-section.style-two .fun-fact-section .counter-title {
+  font-size: 15px;
+}
+
+/*** 
+
+====================================================================
+About Section Two
+====================================================================
+
+***/
+
+.about-section-two {
+  position: relative;
+  padding: 100px 0;
+}
+
+.about-section-two .content-column {
+  position: relative;
+  margin-bottom: 50px;
+}
+
+.about-section-two .content-column .inner-column {
+  position: relative;
+  padding-left: 90px;
+  padding-top: 55px;
+}
+
+.about-section-two .sec-title {
+  margin-bottom: 30px;
+}
+
+.about-section-two .sec-title h2 {
+  font-size: 40px;
+  line-height: 54px;
+  color: #202124;
+}
+
+.about-section-two .sec-title .text {
+  max-width: 415px;
+  font-size: 15px;
+  line-height: 26px;
+  color: #696969;
+}
+
+.about-section-two .list-style-one {
+  margin-bottom: 35px;
+}
+
+.about-section-two .image-column {
+  position: relative;
+  text-align: center;
+  margin-bottom: 150px;
+}
+
+.about-section-two .image-column .image-box {
+  position: relative;
+  margin-bottom: 0;
+  margin-right: -50px;
+}
+
+.about-section-two .applicants-list {
+  position: absolute;
+  right: -50px;
+  bottom: 0;
+  bottom: -150px;
+}
+
+.applicants-list {
+  background: #ffffff;
+  border: 1px solid #ecedf2;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-box-shadow: 0px 40px 30px rgba(25, 25, 46, 0.04);
+  box-shadow: 0px 40px 30px rgba(25, 25, 46, 0.04);
+  border-radius: 8px;
+  min-width: 276px;
+}
+
+.applicants-list .title-box {
+  position: relative;
+  height: 50px;
+  background: var(--primary-color);
+  border-radius: 8px 8px 0px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin: -1px;
+}
+
+.applicants-list .title-box h4 {
+  position: relative;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  color: #ffffff;
+}
+
+.applicants-list .applicants {
+  position: relative;
+  padding: 16px 24px 5px;
+  text-align: left;
+}
+
+.applicants-list .applicant {
+  position: relative;
+  padding-left: 66px;
+  min-height: 50px;
+  margin-bottom: 22px;
+}
+
+.applicants-list .applicant .image {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.applicants-list .applicant .image img {
+  display: block;
+  width: 100%;
+}
+
+.applicants-list .applicant .name {
+  position: relative;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  color: #202124;
+  top: 2px;
+}
+
+.applicants-list .applicant .designation {
+  font-size: 14px;
+  line-height: 19px;
+  color: #696969;
+}
+
+.about-section-two .content-column .theme-btn {
+  min-width: 180px;
+}
+
+.about-section-two.style-two .image-column .image-box {
+  text-align: left;
+  margin-right: 0;
+}
+
+.about-section-two.style-two .content-column .inner-column {
+  padding-left: 120px;
+}
+
+.about-section-two.style-two .applicants-list {
+  right: -80px;
+  bottom: -90px;
+}
+
+/*** 
+
+====================================================================
+About Section Three
+====================================================================
+
+***/
+
+.about-section-three {
+  position: relative;
+  padding: 50px 0;
+}
+
+.about-section-three .images-box {
+  position: relative;
+}
+
+.about-section-three .images-box .row {
+  margin: 0 -5px;
+}
+
+.about-section-three .images-box .column {
+  position: relative;
+  padding: 0 5px;
+}
+
+.about-section-three .images-box .image {
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.about-section-three .images-box .image img {
+  border-radius: 4px;
+  width: 100%;
+}
+
+.about-section-three .text-box,
+.about-section-three .fun-fact-section {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.about-section-three .fun-fact-section {
+  padding: 50px 0 30px;
+}
+
+.about-section-three .text-box h4 {
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 31px;
+  color: #202124;
+  margin-bottom: 31px;
+}
+
+.about-section-three .text-box p {
+  font-size: 15px;
+  line-height: 26px;
+  color: #696969;
+  margin-bottom: 26px;
+}

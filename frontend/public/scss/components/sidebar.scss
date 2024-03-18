@@ -1,0 +1,325 @@
+.sidebar {
+  position: relative;
+}
+
+.sidebar-widget {
+  position: relative;
+  padding: 30px 30px 30px;
+  background: #f5f7fc;
+  border-radius: 8px;
+  margin-bottom: 40px;
+}
+
+.sidebar-widget .widget-title {
+  position: relative;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  color: #202124;
+  margin-bottom: 30px;
+}
+
+.sidebar .btn-box {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.sidebar .btn-box .theme-btn {
+  width: 100%;
+}
+
+.sidebar .btn-box .bookmark-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 50px;
+  width: 50px;
+  line-height: 50px;
+  text-align: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  font-size: 16px;
+  cursor: pointer;
+  color: var(--primary-color);
+  border-radius: 7px;
+  background: rgba(25, 103, 210, 0.07);
+  -webkit-transition: all 300ms ease;
+  -o-transition: all 300ms ease;
+  transition: all 300ms ease;
+  margin-left: 20px;
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 50px;
+  flex: 0 0 50px;
+}
+
+.sidebar .btn-box .bookmark-btn:hover {
+  background: var(--primary-color);
+  color: #fff;
+}
+
+.company-widget {
+  position: relative;
+}
+
+.company-widget .company-title {
+  position: relative;
+  padding-left: 78px;
+  min-height: 60px;
+  padding-top: 5px;
+}
+
+.company-widget .company-logo {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 60px;
+}
+
+.company-widget .company-name {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  color: #202124;
+}
+
+.company-widget .profile-link {
+  font-size: 14px;
+  line-height: 19px;
+  color: var(--primary-color);
+}
+
+.company-widget .company-link {
+  position: relative;
+  font-size: 13px;
+  line-height: 15px;
+  margin-right: 15px;
+  padding: 5px 20px;
+  border-radius: 50px;
+  margin-bottom: 10px;
+  background: rgba(25, 103, 210, 0.15);
+  color: var(--primary-color);
+}
+
+.company-widget .company-info {
+  position: relative;
+  margin-top: 25px;
+}
+
+.company-widget .company-info li {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  color: #202124;
+  margin-bottom: 19px;
+}
+
+.company-widget .company-info li span {
+  font-size: 15px;
+  line-height: 25px;
+  text-align: right;
+  color: #696969;
+}
+
+.company-widget .social-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.company-widget .social-links a {
+  font-size: 14px;
+  line-height: 26px;
+  color: #696969;
+  margin-left: 17px;
+  -webkit-transition: all 300ms ease;
+  -o-transition: all 300ms ease;
+  transition: all 300ms ease;
+}
+
+.company-widget .social-links a:hover {
+  color: #bc91e8;
+}
+
+.company-widget .btn-box {
+  position: relative;
+  margin-bottom: 0px;
+}
+
+.company-widget .btn-box .theme-btn {
+  display: block;
+  width: 100%;
+  background: rgba(25, 103, 210, 0.15);
+  border-radius: 8px;
+}
+
+.company-widget .btn-box .theme-btn:hover {
+  background: rgba(25, 103, 210, 1);
+}
+
+.sidebar-widget.contact-widget .theme-btn {
+  position: relative;
+  display: block;
+  width: 100%;
+}
+
+.sidebar-widget.contact-widget .form-group input,
+.sidebar-widget.contact-widget .form-group select,
+.sidebar-widget.contact-widget .form-group textarea {
+  background-color: #fff;
+  border: 1px solid #ecedf2;
+}
+
+.sidebar-widget.contact-widget .form-group textarea {
+  min-height: 160px;
+  padding: 22px 20px;
+}
+
+/*** 
+
+====================================================================
+Job Detail Section / Style two
+====================================================================
+
+***/
+
+.job-detail-section.style-two {
+  background-color: #f0f5f7;
+}
+
+.job-detail-section.style-two .sidebar-widget {
+  background: #ffffff;
+}
+
+.job-detail-section.style-two .job-skills li a {
+  background: #f0f5f7;
+}
+
+.social-media-widget {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.social-media-widget .widget-title {
+  margin-bottom: 0;
+}
+
+.social-media-widget .social-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.social-media-widget .social-links a {
+  font-size: 14px;
+  line-height: 26px;
+  color: #696969;
+  margin-left: 17px;
+  -webkit-transition: all 300ms ease;
+  -o-transition: all 300ms ease;
+  transition: all 300ms ease;
+}
+
+.social-media-widget .social-links a:hover {
+  color: #bc91e8;
+}
+
+/* Range Slider widget */
+
+.rangeslider-widget {
+  position: relative;
+}
+
+.range-slider-one .ui-widget.ui-widget-content {
+  height: 5px;
+  border: none;
+  margin-bottom: 20px;
+  border-radius: 30px;
+  background: #d4e1f6;
+}
+
+.range-slider-one .ui-slider .ui-slider-range {
+  top: 0px;
+  height: 5px;
+  background: var(--primary-color);
+}
+
+.range-slider-one .ui-state-default,
+.range-slider-one .ui-widget-content .ui-state-default {
+  position: absolute;
+  top: -7px;
+  width: 17px;
+  height: 17px;
+  background: #ffffff;
+  border: 2px solid var(--primary-color);
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.range-slider-one .input-outer {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.range-slider-one .amount-outer {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 70px;
+  padding: 0 10px;
+  height: 30px;
+  text-align: center;
+  background: #d4e1f6;
+  border-radius: 8px;
+  font-size: 14px;
+  line-height: 19px;
+  color: var(--primary-color);
+}
+
+.range-slider-one .amount {
+  margin-right: 5px;
+}
+
+.range-slider-one .ui-state-default:last-child {
+  display: block !important;
+}
+
+.range-slider-one.salary-range .ui-state-default {
+  display: block !important;
+}

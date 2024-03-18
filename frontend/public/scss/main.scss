@@ -1,0 +1,119 @@
+/*
+
+====================================================================
+Fonts
+====================================================================
+
+***/
+@import "./icons.scss";
+@import "./flaticon.scss";
+@import "./fontawesome-all.scss";
+@import "./line-awesome.scss";
+@import "./custom-slick.scss";
+@import "node_modules/react-modal-video/scss/modal-video.scss";
+
+/*** 
+
+====================================================================
+Reset
+====================================================================
+
+***/
+
+/*** 
+
+====================================================================
+Global Settings
+====================================================================
+
+***/
+
+@import "./base/base.scss";
+@import "./base/forms.scss";
+@import "./base/typography.scss";
+@import "./base/utilities.scss";
+
+@import "./components/about.scss";
+@import "./components/accordion.scss";
+@import "./components/ads.scss";
+@import "./components/banner-box.scss";
+@import "./components/button.scss";
+@import "./components/Callout.scss";
+@import "./components/clients.scss";
+@import "./components/companies.scss";
+@import "./components/contact.scss";
+@import "./components/dashboard.scss";
+@import "./components/feature.scss";
+@import "./components/footer.scss";
+@import "./components/fun-fact.scss";
+@import "./components/header.scss";
+@import "./components/job.scss";
+@import "./components/list.scss";
+@import "./components/login.scss";
+@import "./components/map.scss";
+@import "./components/menu.scss";
+@import './components/team.scss';
+@import "./components/service.scss";
+
+@import "./components/message-box.scss";
+@import "./components/page-title.scss";
+@import "./components/pie-graph.scss";
+@import "./components/portfolio.scss";
+@import "./components/preloader.scss";
+@import "./components/progress-bar.scss";
+@import "./components/registr-banner.scss";
+@import "./components/resume.scss";
+@import "./components/section-title.scss";
+@import "./components/select.scss";
+@import "./components/sidebar.scss";
+@import "./components/social.scss";
+@import "./components/socialIcons.scss";
+@import "./components/table.scss";
+@import "./components/tabs.scss";
+@import "./components/testimonials.scss";
+@import "./components/tooltip.scss";
+@import "./components/uploadings.scss";
+
+@import "./components/sections/app.scss";
+@import "./components/sections/browse.scss";
+@import "./components/sections/candidates.scss";
+@import "./components/sections/cta.scss";
+@import "./components/sections/faq.scss";
+@import "./components/sections/invoice.scss";
+@import "./components/sections/jobseeker.scss";
+@import "./components/sections/ls-section.scss";
+@import "./components/sections/news.scss";
+@import "./components/sections/pricing.scss";
+@import "./components/sections/process.scss";
+@import "./components/sections/recruiter.scss";
+@import "./components/sections/steps.scss";
+@import "./components/sections/subscribe.scss";
+@import "./components/sections/tnc.scss";
+@import "./components/job-search.scss";
+
+@import "./layout/blog-sidebar.scss";
+@import "./layout/blog-single.scss";
+@import "./layout/shop/cart.scss";
+@import "./layout/shop/order.scss";
+@import "./layout/shop/products.scss";
+@import "./layout/shop/single.scss";
+@import "./layout/shop/tabs.scss";
+
+@import "./components/new/index-11.scss";
+@import "./components/new/index-12.scss";
+@import "./components/new/index-13.scss";
+@import "./components/new/index-14.scss";
+@import "./components/new/index-15.scss";
+@import "./components/new/index-16.scss";
+@import "./components/new/index-17.scss";
+
+@import "./components/shame.scss";
+
+/*** 
+====================================================================
+59. Responsive
+====================================================================
+***/
+@import "./base/responsive.scss";
+@import "./input-range-slider";
+@import "./custom-nextjs.scss";

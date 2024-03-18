@@ -1,0 +1,14 @@
+ch\glastroesch\jobyzrunner\business\user\Profile.class
+ch\glastroesch\jobyzrunner\business\common\WebConfig$1.class
+ch\glastroesch\jobyzrunner\presentation\UserResource.class
+ch\glastroesch\Application.class
+ch\glastroesch\jobyzrunner\business\user\SalarySelection.class
+ch\glastroesch\jobyzrunner\business\user\UserRepository.class
+ch\glastroesch\jobyzrunner\business\common\TestableDate.class
+ch\glastroesch\jobyzrunner\business\user\User.class
+ch\glastroesch\jobyzrunner\business\user\Salary.class
+ch\glastroesch\jobyzrunner\business\file\FileResource.class
+ch\glastroesch\jobyzrunner\business\file\FileElement.class
+ch\glastroesch\jobyzrunner\business\common\AbstractEntity.class
+ch\glastroesch\jobyzrunner\business\common\WebConfig.class
+ch\glastroesch\jobyzrunner\business\user\UserService.class

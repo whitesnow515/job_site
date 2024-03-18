@@ -1,0 +1,78 @@
+/***
+
+==================================================================
+Contact Section
+==================================================================
+
+***/
+
+.contact-section {
+  position: relative;
+  padding: 100px 0;
+}
+
+.contact-section .upper-box {
+  position: relative;
+  padding: 90px 200px 70px;
+  margin-top: -300px;
+  z-index: 1;
+  background: #ffffff;
+}
+
+.contact-block {
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.contact-block .inner-box {
+  position: relative;
+}
+
+.contact-block .icon {
+  position: relative;
+  display: block;
+  margin-bottom: 16px;
+}
+
+.contact-block h4 {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  color: #202124;
+  margin-bottom: 20px;
+}
+
+.contact-block p {
+  font-size: 15px;
+  line-height: 26px;
+  color: #696969;
+}
+
+.contact-block p a {
+  color: #696969;
+}
+
+.contact-block p .phone {
+  font-size: 18px;
+  color: var(--primary-color);
+}
+
+.contact-section .contact-form {
+  max-width: 850px;
+  margin: 0 auto;
+  border: 1px solid #ecedf2;
+  border-radius: 8px;
+  padding: 50px 50px 70px;
+}
+
+.contact-section .contact-form h3 {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  color: #202124;
+  margin-bottom: 15px;
+}
+
+.contact-section .contact-form .theme-btn {
+  width: 100%;
+}

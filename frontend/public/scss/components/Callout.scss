@@ -1,0 +1,230 @@
+/*==========================
+Callout One
+===========================*/
+
+.callout-one {
+  position: relative;
+  z-index: 1;
+  padding: 45px 30px;
+  overflow: hidden;
+  background-size: auto;
+  background-repeat: repeat;
+  background-position: center center;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.callout-one:before {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(89, 171, 102, 0.9);
+  content: "";
+}
+
+.callout-one .sub-title {
+  position: relative;
+  display: block;
+  font-size: 24px;
+  line-height: 1.4em;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+.callout-one h2 {
+  position: relative;
+  text-align: center;
+  font-size: 48px;
+  line-height: 1.2em;
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+
+.callout-one .theme-btn {
+  border-color: #ffffff;
+  color: #ffffff;
+}
+
+/*==========================
+Callout Two
+===========================*/
+
+.callout-two {
+  position: relative;
+  z-index: 1;
+  padding: 45px 30px;
+  overflow: hidden;
+  background-size: auto;
+  background-repeat: repeat;
+  background-position: center center;
+  margin-bottom: 30px;
+}
+
+.callout-two:before {
+  position: absolute;
+  left: -10%;
+  top: 0;
+  height: 100%;
+  width: 60%;
+  background-color: rgba(89, 171, 102, 1);
+  content: "";
+  -webkit-transform: skew(-15deg);
+  -ms-transform: skew(-15deg);
+  transform: skew(-15deg);
+}
+
+.callout-two .content {
+  position: relative;
+  width: 50%;
+}
+
+.callout-two h2 {
+  font-size: 48px;
+  line-height: 1.2em;
+  font-weight: 600;
+  color: #fff;
+}
+
+.callout-two h3 {
+  font-size: 40px;
+  line-height: 1.2em;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.callout-two .abs-btn {
+  position: absolute;
+  top: 50%;
+  left: 100%;
+  margin-left: -70px;
+  margin-top: -70px;
+  height: 140px;
+  width: 140px;
+  background-color: #ffffff;
+  line-height: 140px;
+  text-align: center;
+  color: #000000;
+  border-radius: 50%;
+  min-width: auto;
+  -webkit-box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+}
+
+/*==========================
+Callout Three
+===========================*/
+
+.callout-three {
+  position: relative;
+  z-index: 1;
+  padding: 45px 30px;
+  overflow: hidden;
+  background-size: auto;
+  background-repeat: repeat;
+  background-position: center center;
+  margin-bottom: 30px;
+}
+
+.callout-three:before {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(89, 171, 102, 0.6);
+  content: "";
+}
+
+.callout-three .content {
+  position: relative;
+  text-align: left;
+}
+
+.callout-three h2 {
+  position: relative;
+  font-size: 42px;
+  line-height: 1.2em;
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.callout-three h3 {
+  position: relative;
+  font-size: 32px;
+  line-height: 1.4em;
+  margin-top: 0px;
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+
+.callout-three .right-box {
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 100%;
+  width: auto;
+  padding: 45px 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.callout-three .right-box:before {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 120%;
+  right: -15%;
+  left: initial;
+  -webkit-transform: skew(-15deg);
+  -ms-transform: skew(-15deg);
+  transform: skew(-15deg);
+  background-color: #f36737;
+  content: "";
+}
+
+.callout-three .banner-offer {
+  position: relative;
+  font-size: 60px;
+  line-height: 1em;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+.callout-three .banner-desc {
+  position: relative;
+  font-size: 23px;
+  color: #ffffff;
+  line-height: 1;
+  margin-bottom: 10px;
+}
+
+.callout-three .theme-btn {
+  border-color: #ffffff;
+  background-color: transparent;
+  color: #ffffff;
+}
+
+.theme_color {
+  color: #25262c;
+}
+
+.pull-right {
+  float: right;
+}
+
+.pull-left {
+  float: left;
+}
